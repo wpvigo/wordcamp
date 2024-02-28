@@ -1,10 +1,23 @@
 body {
-    background: #ff0000;
+    background: #fff;
+
+    color: #222;
+    font-family: 'Montserrat';
 }
 
 
 
 /* TEST CARLOS */
+
+/***** HEADER *****/
+
+
+/*** LOGO ***/
+.wp-block-site-logo img {
+    transform: scale(1.5);
+}
+
+/*** NAV ***/
 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
     color: #E42C2A;
     font-size: 0.9rem;
