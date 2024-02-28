@@ -12,7 +12,7 @@ body {
     text-transform: uppercase;
 
     :hover {
-        color: #222;
+        color: #222!important;
         text-decoration: none;
     }
 }
