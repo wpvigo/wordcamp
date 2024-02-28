@@ -1,3 +1,11 @@
 body {
     background: #ff0000;
 }
+
+
+
+/* TEST CARLOS */
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    color: #E42C2A;
+    text-transform: uppercase;
+}
