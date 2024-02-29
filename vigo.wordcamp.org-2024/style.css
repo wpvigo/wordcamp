@@ -44,15 +44,15 @@ body {
 
 /*** TITLES ***/
 
-h2 {
+h2.wc-title {
     position: relative;
     font-weight: 400;
 }
-    h2 strong {
+    h2.wc-title:before {
+        position: absolute;
+        content: '';
+    }
+    h2.wc-title strong {
         position: relative;
         font-weight: 400;
     }
-        h2 strong:before {
-            position: absolute;
-            content: '';
-        }
