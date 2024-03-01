@@ -64,5 +64,5 @@ h2.wc-title {
     background-image: url(https://vigo.wordcamp.org/2024/files/2024/02/2024.png);
     background-position: bottom 0 right 0;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
 }
