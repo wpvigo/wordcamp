@@ -21,7 +21,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.9)!important;
     z-index: 100;
 }
     .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
