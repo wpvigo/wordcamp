@@ -16,7 +16,7 @@ body {
 }
 
 /*** NAV ***/
-.wp-site-blocks > header.wp-block-template-part {
+.wp-site-blocks > header.wp-block-template-part > .wp-block-group {
     position: fixed;
     left: 0;
     top: 0;
