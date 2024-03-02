@@ -21,7 +21,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.85);
     z-index: 100;
 }
     .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
@@ -55,8 +55,6 @@ h2.wc-title {
 
 /*** BLOCKS ***/
 .wc-hero-block {
-
-
     background-image: url(https://vigo.wordcamp.org/2024/files/2024/02/2024.png);
     background-position: bottom 0 right 0;
     background-repeat: no-repeat;
