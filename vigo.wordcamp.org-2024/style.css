@@ -60,3 +60,12 @@ h2.wc-title {
     background-repeat: no-repeat;
     background-size: contain;*/
 }
+
+.wcv-column {
+    display: flex;
+    flex-direction: column;
+}
+    .wcv-column h2 {
+        margin-top: auto!important;
+        margin-bottom: 0!important;
+    }
