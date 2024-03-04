@@ -1,9 +1,8 @@
 :root {
-    
+    --wc--color-vigo: #E42C2A;
 }
 
 body {
-    --color-vigo: #E42C2A;
     color: #222;
     font-family: 'Montserrat';
     background-color: #fff;
@@ -58,13 +57,13 @@ h2.wc-title {
         width: calc( 50vw - ( 1140px/2 ) );
         content: '';
         transform: translate(-100%,0);
-        border-bottom: 1px solid var(--color-vigo);
+        border-bottom: 1px solid var(--wc--color-vigo);
         z-index: 10;
     }
     h2.wc-title strong {
         position: relative;
         font-weight: 400;
-        border-bottom: 1px solid var(--color-vigo);
+        border-bottom: 1px solid var(--wc--color-vigo);
     }
 
 /*** BLOCKS ***/
