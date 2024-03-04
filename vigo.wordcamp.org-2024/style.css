@@ -1,8 +1,9 @@
 :root {
-    --color-vigo: #E42C2A;
+    
 }
 
 body {
+    --color-vigo: #E42C2A;
     color: #222;
     font-family: 'Montserrat';
     background-color: #fff;
