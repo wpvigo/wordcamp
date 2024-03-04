@@ -1,7 +1,3 @@
-:root {
-    --wc--color-vigo: #E42C2A;
-}
-
 body {
     color: #222;
     font-family: 'Montserrat';
@@ -35,7 +31,7 @@ body {
         text-transform: uppercase;
     }
         .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
-            color: var(--color-vigo)!important;
+            color: #E42C2A!important;
             text-decoration: none;
         }
 
@@ -57,13 +53,13 @@ h2.wc-title {
         width: calc( 50vw - ( 1140px/2 ) );
         content: '';
         transform: translate(-100%,0);
-        border-bottom: 1px solid var(--wc--color-vigo);
+        border-bottom: 1px solid #E42C2A;
         z-index: 10;
     }
     h2.wc-title strong {
         position: relative;
         font-weight: 400;
-        border-bottom: 1px solid var(--wc--color-vigo);
+        border-bottom: 1px solid #E42C2A;
     }
 
 /*** BLOCKS ***/
