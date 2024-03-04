@@ -42,15 +42,24 @@ body {
 
 h2.wc-title {
     position: relative;
+    width: fit-content;
+    position: relative;
     font-weight: 400;
 }
     h2.wc-title:before {
         position: absolute;
+        left: 0;
+        bottom: 0;
+        width: calc( 50vw - ( 1140px/2 ) );
         content: '';
+        transform: translate(-100%,0);
+        border-bottom: 1px solid #c00;
+        z-index: 10;
     }
     h2.wc-title strong {
         position: relative;
         font-weight: 400;
+        border-bottom: 1px solid #c00;
     }
 
 /*** BLOCKS ***/
