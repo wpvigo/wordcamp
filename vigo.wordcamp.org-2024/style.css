@@ -4,6 +4,9 @@ body {
     background-color: #fff;
 }
 
+*, *:after, *:before {
+    box-sizing: border-box;
+}
 
 
 /* TEST CARLOS */
