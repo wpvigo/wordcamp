@@ -57,6 +57,7 @@ body {
     position: absolute;
     left: 50%;
     bottom: -3vw;
+    line-height: 1;
     transform: translate(-50%, 0);
     content: 'CON V DE VIGO';
     color: rgba(255, 255, 255, 0.3);
