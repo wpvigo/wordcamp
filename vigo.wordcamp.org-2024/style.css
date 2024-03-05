@@ -56,9 +56,8 @@ body {
 .wcv-conv:before {
     position: absolute;
     left: 50%;
-    bottom: 0;
-    line-height: 0;
-    transform: translate(-50%,0);
+    bottom: -3vw;
+    transform: translate(-50%, 0);
     content: 'CON V DE VIGO';
     color: rgba(255, 255, 255, 0.3);
     font-size: 13vw;
