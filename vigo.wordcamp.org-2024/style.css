@@ -57,9 +57,19 @@ body {
 .wcv-programa-columns {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap!important;
+    gap: 42px!important;
 }
-
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-26 {
+        flex-basis: calc( 35% - 28px); 
+    }
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-25 {
+        flex-basis: calc( 35% - 28px);
+    }
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
+        flex-basis: calc( 30% - 28px);
+    }
 
 
 /** EL EVENTO HOME */
