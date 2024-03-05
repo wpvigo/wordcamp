@@ -65,14 +65,25 @@ body {
 }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-26 {
+        position: relative;
         flex-basis: calc( 37% - 28px)!important; 
     }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-25 {
+        position: relative;
         flex-basis: 45%!important;
         margin-left: 26%;
     }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
         flex-basis: calc( 26% - 28px)!important;
+    }
+
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-24:before,
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-26:before {
+
+    }
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-25:before {
+        flex-basis: 45%!important;
+        margin-left: 26%;
     }
 
 
