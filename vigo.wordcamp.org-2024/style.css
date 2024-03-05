@@ -79,11 +79,22 @@ body {
 
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-24:before,
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-26:before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
 
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px solid #c00;
     }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-25:before {
-        flex-basis: 45%!important;
-        margin-left: 26%;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height: 1px;
+        border-top: 1px solid #c00;
     }
 
 
