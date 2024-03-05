@@ -40,41 +40,11 @@ body {
 
 /*** TITLES ***/
 
-h2.wc-title {
-    position: relative;
-    width: fit-content;
-    position: relative;
-    font-weight: 400;
-}
-    h2.wc-title:before {
-        position: absolute;
-        left: 0;
-        bottom: -2px;
-        width: calc( 50vw - ( 1140px/2 ) );
-        content: '';
-        transform: translate(-100%,0);
-        border-bottom: 1px solid #E42C2A;
-        z-index: 10;
-    }
-    h2.wc-title strong {
-        position: relative;
-        font-weight: 400;
-        border-bottom: 1px solid #E42C2A;
-    }
+
 
 /*** BLOCKS ***/
-.wc-hero-block {
-    /*background-image: url(https://vigo.wordcamp.org/2024/files/2024/02/2024.png);
-    background-position: bottom 0 right 0;
-    background-repeat: no-repeat;
-    background-size: contain;*/
+.wcv-welcome {
+   
 }
 
-.wcv-column {
-    display: flex;
-    flex-direction: column;
-}
-    .wcv-column h2 {
-        margin-top: auto!important;
-        margin-bottom: 0!important;
-    }
+
