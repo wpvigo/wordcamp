@@ -62,13 +62,13 @@ body {
 }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-26 {
-        flex-basis: calc( 35% - 28px); 
+        flex-basis: calc( 35% - 28px)!important; 
     }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-25 {
-        flex-basis: calc( 35% - 28px);
+        flex-basis: calc( 35% - 28px)!important;
     }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
-        flex-basis: calc( 30% - 28px);
+        flex-basis: calc( 30% - 28px)!important;
     }
 
 
