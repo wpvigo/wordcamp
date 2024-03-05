@@ -49,4 +49,16 @@ body {
     margin-top: -250px!important;
 }
 
+.wcv-conv {
+    position: relative;
+}
+.wcv-conv:before {
+    position: absolute;
+    bottom: 0;
+    content: 'CON V DE VIGO';
+    font-size: 8vw;
+    font-weight: 700;
+    text-align: center;
+}
+
 
