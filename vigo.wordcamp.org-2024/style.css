@@ -81,20 +81,39 @@ body {
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-26:before {
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: -20px;
         content: '';
         width: 100%;
         height: 1px;
-        border-bottom: 1px solid #c00;
+        border-bottom: 1px solid var(--wp--preset--color--custom-flora);
+    }
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-24:after,
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-26:after {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: var(--wp--preset--color--custom-mar);
     }
     .wcv-programa-columns > .wp-block-column.wcv-programa-column-25:before {
         position: absolute;
         left: 0;
-        top: 0;
+        top: -23px;
         content: '';
         width: 100%;
         height: 1px;
-        border-top: 1px solid #c00;
+        background-color: var(--wp--preset--color--custom-mar);
+    }
+    .wcv-programa-columns > .wp-block-column.wcv-programa-column-25:after {
+        position: absolute;
+        left: 0;
+        top: -13px;
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: var(--wp--preset--color--custom-mar);
     }
 
 
