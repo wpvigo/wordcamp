@@ -49,6 +49,18 @@ body {
     margin-top: -250px!important;
 }
 
+.wcv-elevento .wp-block-column .wp-block-image {
+    width: 100%;
+    height: 100%;
+}
+    .wcv-elevento .wp-block-column .wp-block-image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
 .wcv-conv {
     position: relative;
     overflow: hidden;
