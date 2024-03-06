@@ -58,6 +58,9 @@ a {
 
 /***** FOOTER *****/
 
+.wcv-footer-wrap {
+	background-position: right -150px bottom -150px!important;
+}
 .organizadores-wrapper {
 	display: inline-block!important;
 }
