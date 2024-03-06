@@ -61,6 +61,10 @@ a {
 .wcv-footer-wrap {
 	background-position: right -170px bottom -20px !important;
 }
+.organizadores-col {
+	display: flex;
+	justify-content: flex-end;
+}
 .organizadores-wrapper {
 	display: inline-block!important;
 }
