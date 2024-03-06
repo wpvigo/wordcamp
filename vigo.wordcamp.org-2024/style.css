@@ -310,11 +310,20 @@ form .grunion-field-wrap {
 		.wcv-programa-columns > .wp-block-column.wcv-programa-column-26:after,
 		.wcv-programa-columns > .wp-block-column.wcv-programa-column-24:before,
 	    	.wcv-programa-columns > .wp-block-column.wcv-programa-column-25:before,
-		.wcv-programa-columns > .wp-block-column.wcv-programa-column-23:before {
+		.wcv-programa-columns > .wp-block-column.wcv-programa-column-26:before {
 			content: none!important; 
 		}
 	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
 		display: none;
+	}
+
+	.el-evento-col-cols .el-evento-col-content {
+		order: 2;
+		width: 100%;
+	}
+	.el-evento-col-cols .el-evento-col-media {
+		order: 1;
+		width: 100%;
 	}
 }
 
