@@ -59,7 +59,7 @@ a {
 /***** FOOTER *****/
 
 .organizadores-wrapper {
-	display: inline-block;
+	display: inline-block!important;
 }
 
 
