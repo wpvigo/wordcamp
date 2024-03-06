@@ -54,7 +54,12 @@ body {
     position: relative;
     margin-top: -250px!important;
 }
-
+	.wcv-info-columns .wp-block-column {
+		transform: all 0.2s;
+	}
+	.wcv-info-columns .wp-block-column:hover {
+		transform: scaleX(1.2);
+	}
 /** PROGRAMA HOME **/
 
 .wcv-programa-columns {
