@@ -317,14 +317,17 @@ form .grunion-field-wrap {
 		display: none;
 	}
 
-	.el-evento-cols .el-evento-col-content {
-		order: 2;
-		width: 100%;
+	.el-evento-cols {
+		flex-direction: column;
 	}
-	.el-evento-cols .el-evento-col-media {
-		order: 1;
-		width: 100%;
-	}
+		.el-evento-cols .el-evento-col-content {
+			order: 2;
+			flex-basis: 100%;
+		}
+		.el-evento-cols .el-evento-col-media {
+			order: 1;
+			flex-basis: 100%;
+		}
 }
 
 @media screen and (max-width: 600px) {
