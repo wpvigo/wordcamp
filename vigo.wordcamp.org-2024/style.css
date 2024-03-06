@@ -55,7 +55,7 @@ body {
     margin-top: -250px!important;
 }
 	.wcv-info-columns .wp-block-column {
-		transform: all 0.2s;
+		transition: all 0.2s ease-in-out;
 	}
 	.wcv-info-columns .wp-block-column:hover {
 		transform: scaleX(1.2);
