@@ -59,6 +59,11 @@ h1, h2, h3, h4, h5, h6, p {
             text-decoration: none;
         }
 
+.wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
+	top: calc(100% + 20px)!important;
+	min-width: 260px!important;
+}
+
 
 /***** FOOTER *****/
 
