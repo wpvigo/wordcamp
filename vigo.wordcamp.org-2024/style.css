@@ -317,11 +317,11 @@ form .grunion-field-wrap {
 		display: none;
 	}
 
-	.el-evento-col-cols .el-evento-col-content {
+	.el-evento-cols .el-evento-col-content {
 		order: 2;
 		width: 100%;
 	}
-	.el-evento-col-cols .el-evento-col-media {
+	.el-evento-cols .el-evento-col-media {
 		order: 1;
 		width: 100%;
 	}
