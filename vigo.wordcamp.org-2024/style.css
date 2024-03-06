@@ -293,7 +293,7 @@ form .grunion-field-wrap {
 
 /****** RESPONSIVE ******/
 
-@media screen and (max-width: 810px) {
+@media screen and (min-width: 810px) {
 
 	.wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
     	.wcv-programa-columns > .wp-block-column.wcv-programa-column-25,
