@@ -56,6 +56,13 @@ a {
         }
 
 
+/***** FOOTER *****/
+
+.organizadores-wrapper {
+	display: inline-block;
+}
+
+
 /***** CONTENT *****/
 
 /*** TITLES ***/
