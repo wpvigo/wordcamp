@@ -9,17 +9,14 @@ body {
 }
 
 
-/** BARRA DE ADMINISTRACIÓN */
+/***** BARRA DE ADMINISTRACIÓN *****/
 body.admin-bar {
 	margin-top: 0 !important;
 	padding-bottom: 28px;
 }
-
 body.admin-bar #wphead {
 	padding-top: 0;
 }
-
-/*body.admin-bar #footer {padding-bottom: 28px;}*/
 #wpadminbar {
 	top: auto !important;
 	bottom: 0;
@@ -31,6 +28,11 @@ body.admin-bar #wphead {
 	bottom: 0;
 }
 
+
+/***** COMMON *****/
+a {
+	text-decoration: none;
+}
 
 /***** HEADER *****/
 
