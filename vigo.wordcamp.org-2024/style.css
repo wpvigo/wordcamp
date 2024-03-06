@@ -293,12 +293,12 @@ form .grunion-field-wrap {
 
 /****** RESPONSIVE ******/
 
-@media screen and (min-width: 810px) {
+@media screen and (max-width: 810px) {
 
-	.wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
-    	.wcv-programa-columns > .wp-block-column.wcv-programa-column-25,
-	.wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
-    	.wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
+	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
+    	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-25,
+	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-24,
+    	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
 		flex-basis: calc( 50% - 28px)!important; 
 	}
 	.wcv-programa-columns > .wp-block-column.wcv-programa-column-24:after,
@@ -309,7 +309,7 @@ form .grunion-field-wrap {
     	.wcv-programa-columns > .wp-block-column.wcv-programa-column-25:before,
 	.wcv-programa-columns > .wp-block-column.wcv-programa-column-24:before,
     	.wcv-programa-columns > .wp-block-column.wcv-programa-column-icon:before {
-		content: none; 
+		content: none!important; 
 	}
 }
 
