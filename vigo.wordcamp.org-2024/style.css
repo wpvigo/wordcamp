@@ -58,7 +58,7 @@ body {
 		transition: all 0.2s ease-in-out;
 	}
 	.wcv-info-columns .wp-block-column:hover {
-		transform: scale(1.1);
+		transform: scale(1.05);
 	}
 /** PROGRAMA HOME **/
 
