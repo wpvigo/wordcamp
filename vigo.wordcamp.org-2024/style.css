@@ -295,7 +295,7 @@ form .grunion-field-wrap {
 
 @media screen and (max-width: 810px) {
 
-	body .wcv-programa-columns > .wp-block-column:not(:last-child()) {
+	body .wcv-programa-columns > .wp-block-column:not(:last-child) {
 		margin-bottom: 30px;
 	}
 	
@@ -303,6 +303,7 @@ form .grunion-field-wrap {
     	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-25,
 	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-26 {
 		flex-basis: 100%!important; 
+		margin: 0;
 	}
 		.wcv-programa-columns > .wp-block-column.wcv-programa-column-24:after,
 	    	.wcv-programa-columns > .wp-block-column.wcv-programa-column-25:after,
