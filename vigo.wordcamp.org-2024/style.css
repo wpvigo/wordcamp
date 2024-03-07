@@ -73,8 +73,8 @@ body:not(.home) .wp-block-site-logo img {
             text-decoration: none;
         }
 body:not(.home) .wp-site-blocks > header.wp-block-template-part > .wp-block-group {
-	position: relative;
-	background-color: #fff!important;
+	/*position: relative;
+	background-color: #fff!important;*/
 }
 
 .wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
