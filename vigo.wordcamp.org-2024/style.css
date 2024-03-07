@@ -55,7 +55,7 @@ a {
     /*transform: scale(1.5);*/
 }
 body:not(.home) .wp-block-site-logo img {
-	filter: invert(100%) brightness(1000%);
+	/*filter: invert(100%) brightness(1000%);*/
 }
 
 /*** NAV ***/
