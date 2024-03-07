@@ -346,6 +346,7 @@ form .grunion-field-wrap {
 @media screen and (max-width: 600px) {
 	#wpadminbar {
 		position: fixed;
+		bottom: -999em;
 	}
 
 	.wcv-elevento {
