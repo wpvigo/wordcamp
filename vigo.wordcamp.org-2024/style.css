@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6, p {
 .wcv-welcome {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -117,8 +117,8 @@ h1, h2, h3, h4, h5, h6, p {
 	.wcv-info-columns .wp-block-column:hover {
 		transform: scale(1.05);
 	}
-/** PROGRAMA HOME **/
 
+/** PROGRAMA HOME **/
 .wcv-programa-columns {
     display: flex;
     flex-direction: row;
