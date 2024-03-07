@@ -347,4 +347,8 @@ form .grunion-field-wrap {
 	#wpadminbar {
 		position: fixed;
 	}
+
+	.wcv-elevento {
+		padding-top: 60px;
+		padding-bottom: 60px;
 }
