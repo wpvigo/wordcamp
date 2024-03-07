@@ -81,10 +81,11 @@ body:not(.home) .wp-site-blocks > header.wp-block-template-part > .wp-block-grou
 	min-width: 260px!important;
 }
 	.wp-block-navigation__submenu-container .wp-block-navigation-item:not(:last-child) {
+		font-size: 90%;
 		border-bottom: 1px dotted #999;
 	}
-		.wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container a:hover {
-			color: var(--wp--preset--color--custom-flora)!important;
+		.wp-block-navigation__submenu-container .wp-block-navigation-item a:hover {
+			color: var(--wp--preset--color--custom-vigo)!important;
 		}
 
 
