@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6, p {
 	text-wrap: balance;
 }
 
+:where(.wp-site-blocks) > * {
+	margin-block-start: 0;
+}
+
 /***** HEADER *****/
 
 /*** LOGO ***/
