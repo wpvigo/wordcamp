@@ -205,21 +205,23 @@ a {
 
 /** CON V DE VIGO HOME **/
 .wcv-conv {
-    position: relative;
-    overflow: hidden;
+    	position: relative;
+    	overflow: hidden;
 }
 .wcv-conv:before {
-    position: absolute;
-    left: 50%;
-    bottom: -3vw;
-    line-height: 1;
-    transform: translate(-50%, 0);
-    content: 'CON V DE VIGO';
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 13vw;
-    font-weight: 700;
-    text-align: center;
-    white-space: nowrap;
+	position: absolute;
+	left: 50%;
+	/*bottom: -3vw;*/
+	bottom: -1vw;
+	line-height: 1;
+	transform: translate(-50%, 0);
+	content: 'CON V DE VIGO';
+	color: rgba(255, 255, 255, 0.3);
+	/*font-size: 13vw;*/
+	font-size: 6vw;
+	font-weight: 700;
+	text-align: center;
+	white-space: nowrap;
 }
 
 .con-v-cols .con-v-col-media {
