@@ -329,6 +329,14 @@ form .grunion-field-wrap {
 			order: 1;
 			flex-basis: 100%;
 		}
+
+	.wcv-info-columns . wcv-info-column-ponente,
+	.wcv-info-columns . wcv-info-column-patrocinador {
+		flex-basis: 50%;
+	}
+	.wcv-info-columns . wcv-info-column-voluntario {
+		flex-basis: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
