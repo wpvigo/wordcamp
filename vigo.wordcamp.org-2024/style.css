@@ -72,6 +72,9 @@ body:not(.home) .wp-block-site-logo img {
             color: #fff!important;
             text-decoration: none;
         }
+	body:not(.home) .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+            color:var(--wp--preset--color--custom-vigo)!important;
+        }
 body:not(.home) .wp-site-blocks > header.wp-block-template-part > .wp-block-group {
 	/*position: relative;
 	background-color: #fff!important;*/
@@ -81,7 +84,7 @@ body:not(.home) .wp-site-blocks > header.wp-block-template-part > .wp-block-grou
 	min-width: 260px!important;
 }
 	.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item:not(:last-child) {
-		font-size: 90%;
+		font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.104), 14px);
 		border-bottom: 1px dotted #999;
 	}
 		.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item a:hover {
