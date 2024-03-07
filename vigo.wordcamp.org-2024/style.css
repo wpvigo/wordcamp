@@ -44,6 +44,11 @@ a {
 	opacity: 0;
 }
 
+.extend-to-left {
+	width: 50vw;
+	margin-left: calc( 25% - 25vw );
+}
+
 :where(.wp-site-blocks) > * {
 	margin-block-start: 0;
 }
