@@ -227,7 +227,7 @@ a {
 	margin-left: calc( 50% - 50vw )!important;
 }
 .con-v-cols .con-v-col-data {
-	flex-basis: 50%;
+	flex-basis: 50%!important;
 }
 
 
