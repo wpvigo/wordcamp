@@ -38,6 +38,12 @@ a {
 	text-wrap: balance;
 }
 
+.hidden {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+}
+
 :where(.wp-site-blocks) > * {
 	margin-block-start: 0;
 }
