@@ -226,6 +226,17 @@ a {
 	flex-basis: 50vw!important;
 	margin-left: calc( 50% - 50vw )!important;
 }
+	.con-v-cols .con-v-col-media figure {
+		width: 100%;
+		height: 100%;
+	}
+		.con-v-cols .con-v-col-media img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center center;
+		}
 .con-v-cols .con-v-col-data {
 	flex-basis: 50%!important;
 }
