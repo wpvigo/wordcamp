@@ -330,11 +330,11 @@ form .grunion-field-wrap {
 			flex-basis: 100%;
 		}
 
-	.wcv-info-columns . wcv-info-column-ponente,
-	.wcv-info-columns . wcv-info-column-patrocinador {
+	.wcv-info-columns .wcv-info-column-ponente,
+	.wcv-info-columns .wcv-info-column-patrocinador {
 		flex-basis: 50%!important;
 	}
-	.wcv-info-columns . wcv-info-column-voluntario {
+	.wcv-info-columns .wcv-info-column-voluntario {
 		flex-basis: 100%!important;
 	}
 }
