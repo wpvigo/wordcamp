@@ -223,7 +223,7 @@ a {
 }
 
 .con-v-cols .con-v-col-media {
-	flex-basis: 50vw;
+	flex-basis: 50vw!important;
 	margin-left: calc( 50% - 50vw )!important;
 }
 .con-v-cols .con-v-col-data {
