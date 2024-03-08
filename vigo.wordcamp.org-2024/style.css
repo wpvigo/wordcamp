@@ -343,6 +343,10 @@ form .grunion-field-wrap {
 			border:  1px solid var(--wp--preset--color--custom-borde);
             		background-color: #fff;
 		}
+		form .grunion-field-wrap input:focus {
+			border-color: var(--wp--preset--color--custom-vigo);
+			outline: 1px solid var(--wp--preset--color--custom-vigo);
+		}
 	form .grunion-field-wrap textarea {
 		resize: vertical;
 	}
