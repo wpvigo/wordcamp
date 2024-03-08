@@ -343,12 +343,15 @@ form .grunion-field-wrap {
 			border:  1px solid var(--wp--preset--color--custom-borde);
             		background-color: #fff;
 		}
-		form .grunion-field-wrap input:focus {
+		form .grunion-field-wrap input:focus,
+		form .grunion-field-wrap textarea:focus{
 			border-color: var(--wp--preset--color--custom-mar);
 			outline: 1px solid var(--wp--preset--color--custom-mar);
 		}
-		form .grunion-field-wrap input[aria-describedby=$"error"],
-		form .grunion-field-wrap input[aria-describedby=^"error"]:focus{
+		form .grunion-field-wrap input[aria-invalid="true"],
+		form .grunion-field-wrap input[aria-invalid="true"]:focus, 
+		form .grunion-field-wrap textarea[aria-invalid="true"],
+		form .grunion-field-wrap textarea[aria-invalid="true"]:focus {
 			border-color: var(--wp--preset--color--custom-vigo);
 			outline: 1px solid var(--wp--preset--color--custom-vigo);
 		}
