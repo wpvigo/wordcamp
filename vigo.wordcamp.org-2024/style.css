@@ -266,11 +266,31 @@ body:not(.home) .wp-block-site-logo img {
 	flex-wrap: wrap;
 	gap: var(--wp--style--block-gap);
 }
+	.wcv-form .form-control-25-wrap {
+		width: calc( 25% - var(--wp--style--block-gap) );
+		flex-basis: calc( 25% - var(--wp--style--block-gap) );
+	}
+	.wcv-form .form-control-33-wrap {
+		width: calc( 33.3333% - var(--wp--style--block-gap) );
+		flex-basis: calc( 33.3333% - var(--wp--style--block-gap) );
+	}
+	.wcv-form .form-control-40-wrap {
+		width: calc( 40% - var(--wp--style--block-gap) );
+		flex-basis: calc( 40% - var(--wp--style--block-gap) );
+	}
 	.wcv-form .form-control-50-wrap {
 		width: calc( 50% - var(--wp--style--block-gap) );
 		flex-basis: calc( 50% - var(--wp--style--block-gap) );
 	}
-
+	.wcv-form .form-control-60-wrap {
+		width: calc( 60% - var(--wp--style--block-gap) );
+		flex-basis: calc( 60% - var(--wp--style--block-gap) );
+	}
+	.wcv-form .form-control-75-wrap {
+		width: calc( 75% - var(--wp--style--block-gap) );
+		flex-basis: calc( 75% - var(--wp--style--block-gap) );
+	}
+	
 
 form .grunion-field-wrap {
 	margin-bottom: 10px;
