@@ -371,8 +371,7 @@ form .grunion-field-wrap {
 		resize: vertical;
 	}
 	form .grunion-field-wrap select {
-        	padding: 8px 12px;
-		padding-right: 26px;
+        	padding: 8px 40px 8px 12px;
 		min-height: 41px;
 	        max-width: 25rem;
 	        line-height: 22px;
@@ -382,14 +381,14 @@ form .grunion-field-wrap {
 		font-family: inherit;
 		font-size: 15;
 		text-transform: none;
-        	border:  1px solid var(--wp--preset--color--custom-borde);
+        	border: 1px solid var(--wp--preset--color--custom-borde);
 		border-radius: 3px;
-	        background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E');
+	        background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E);
 	        background-size: 16px 16px;
 		background-repeat: no-repeat;
-		background-position: right 5px top 55%;
-	        cursor: pointer;
+		background-position: right 10px top 13px;
 	        vertical-align: middle;
+		cursor: pointer;
     	}
 
 	form .grunion-field-wrap .contact-form__input-error {
