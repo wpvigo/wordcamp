@@ -394,7 +394,7 @@ form .grunion-field-wrap {
 			width: 100vw;
 		}
 		.con-v-cols .con-v-col-data {
-			padding-top: 0!important;
+			padding-top: 30px!important;
 			flex-basis: 1!important;
 			width: 100%!important;
 		}
