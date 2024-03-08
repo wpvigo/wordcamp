@@ -113,6 +113,9 @@ body:not(.home) .wp-block-site-logo img {
 		.organizadores-wrapper .wp-block-navigation__container li {
 			padding: 0;
 		}
+		.organizadores-wrapper .designedby {
+			margin-top: auto;
+		}
 
 
 /***** CONTENT *****/
