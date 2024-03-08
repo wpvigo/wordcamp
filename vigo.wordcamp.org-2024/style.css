@@ -263,7 +263,7 @@ body:not(.home) .wp-block-site-logo img {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 0;
+	gap: 0!important;
 	margin-left: -20px;
 	margin-right: -20px;
 }
