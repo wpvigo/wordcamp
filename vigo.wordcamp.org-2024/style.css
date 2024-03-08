@@ -394,9 +394,13 @@ form .grunion-field-wrap {
 		border-radius: 3px;
 		background-color: color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 25%);
 	}
-		form .contact-form__error li {
-			color: #fff;
+		form .contact-form__error ul {
+			margin-bottom: 0;
 		}
+			form .contact-form__error li,
+			form .contact-form__error li a {
+				color: #fff;
+			}
 
 
 
