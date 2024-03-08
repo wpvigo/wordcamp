@@ -264,11 +264,11 @@ body:not(.home) .wp-block-site-logo img {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: var(--form-gap);
+	gap: var(--wp--style--block-gap);
 }
 	.wcv-form .form-control-50-wrap {
-		width: calc(50% - var(--wp--style--block-gap) );
-		flex-basis: calc(50% - var(--wp--style--block-gap );
+		width: calc( 50% - var(--wp--style--block-gap) );
+		flex-basis: calc( 50% - var(--wp--style--block-gap) );
 	}
 
 
