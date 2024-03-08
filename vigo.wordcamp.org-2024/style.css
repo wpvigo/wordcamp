@@ -344,6 +344,10 @@ form .grunion-field-wrap {
             		background-color: #fff;
 		}
 		form .grunion-field-wrap input:focus {
+			border-color: var(--wp--preset--color--custom-mar);
+			outline: 1px solid var(--wp--preset--color--custom-mar);
+		}
+		form .grunion-field-wrap input[aria-describedby=*"error"]:focus {
 			border-color: var(--wp--preset--color--custom-vigo);
 			outline: 1px solid var(--wp--preset--color--custom-vigo);
 		}
