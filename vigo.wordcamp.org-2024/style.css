@@ -260,39 +260,44 @@ body:not(.home) .wp-block-site-logo img {
 /**** FORMULARIOS ****/
 
 .wcv-form {
-	--form-gap: 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: var(--wp--style--block-gap);
+	gap: 0;
+	margin-left: -20px;
+	margin-right: -20px;
 }
+	.wcv-form .grunion-field-wrap {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	.wcv-form .form-control-25-wrap {
-		width: calc( 25% - var(--wp--style--block-gap) );
-		flex-basis: calc( 25% - var(--wp--style--block-gap) );
+		width: 25%;
+		flex-basis: 25%;
 	}
 	.wcv-form .form-control-33-wrap {
-		width: calc( 33.3333% - var(--wp--style--block-gap) );
-		flex-basis: calc( 33.3333% - var(--wp--style--block-gap) );
+		width: 33.3333%;
+		flex-basis: 33.3333%;
 	}
 	.wcv-form .form-control-40-wrap {
-		width: calc( 40% - var(--wp--style--block-gap) );
-		flex-basis: calc( 40% - var(--wp--style--block-gap) );
+		width: 40%;
+		flex-basis: 40%;
 	}
 	.wcv-form .form-control-50-wrap {
-		width: calc( 50% - var(--wp--style--block-gap) );
-		flex-basis: calc( 50% - var(--wp--style--block-gap) );
+		width: 50%;
+		flex-basis: 50%;
 	}
 	.wcv-form .form-control-60-wrap {
-		width: calc( 60% - var(--wp--style--block-gap) );
-		flex-basis: calc( 60% - var(--wp--style--block-gap) );
+		width: 60%;
+		flex-basis: 60%;
 	}
 	.wcv-form .form-control-66-wrap {
-		width: calc( 66.666666% - var(--wp--style--block-gap) );
-		flex-basis: calc( 66.666666% - var(--wp--style--block-gap) );
+		width: 66.666666%;
+		flex-basis: 66.666666%;
 	}
 	.wcv-form .form-control-75-wrap {
-		width: calc( 75% - var(--wp--style--block-gap) );
-		flex-basis: calc( 75% - var(--wp--style--block-gap) );
+		width: 75%;
+		flex-basis: 75%;
 	}
 	
 
