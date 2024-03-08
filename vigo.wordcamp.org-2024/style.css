@@ -358,6 +358,7 @@ form .grunion-field-wrap {
 			border-color: color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 50%);
 			outline: 1px solid color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 50%);
 		}
+
 	form .grunion-field-wrap textarea {
 		resize: vertical;
 	}
@@ -383,7 +384,19 @@ form .grunion-field-wrap {
 	        background-size: 16px 16px;
 	        cursor: pointer;
 	        vertical-align: middle;
-    }
+    	}
+
+	form .contact-form__error {
+		position: relative;
+		margin-bottom: 30px;
+		padding: 30px;
+		color: #fff;
+		border-radius: 3px;
+		background-color: color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 25%);
+	}
+		form .contact-form__error li {
+			color: #fff;
+		}
 
 
 
