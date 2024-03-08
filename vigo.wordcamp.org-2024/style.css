@@ -286,6 +286,10 @@ body:not(.home) .wp-block-site-logo img {
 		width: calc( 60% - var(--wp--style--block-gap) );
 		flex-basis: calc( 60% - var(--wp--style--block-gap) );
 	}
+	.wcv-form .form-control-66-wrap {
+		width: calc( 66.666666% - var(--wp--style--block-gap) );
+		flex-basis: calc( 66.666666% - var(--wp--style--block-gap) );
+	}
 	.wcv-form .form-control-75-wrap {
 		width: calc( 75% - var(--wp--style--block-gap) );
 		flex-basis: calc( 75% - var(--wp--style--block-gap) );
