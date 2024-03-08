@@ -385,6 +385,18 @@ form .grunion-field-wrap {
 		.wcv-info-columns .wcv-info-column-voluntario {
 			flex-basis: 100%!important;
 		}
+
+	.con-v-cols {
+		flex-direction: column;
+	}
+		.con-v-cols .con-v-col-media {
+			flex-basis: 100%;
+			margin-left: 0!important;
+			margin-right: 0!important;
+		}
+		.con-v-cols .con-v-col-data {
+			flex-basis: 100%!important;
+		}
 }
 
 @media screen and (max-width: 600px) {
