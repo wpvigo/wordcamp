@@ -383,7 +383,7 @@ form .grunion-field-wrap {
 		text-transform: none;
         	border: 1px solid var(--wp--preset--color--custom-borde);
 		border-radius: 3px;
-	        background-image: url('data:image/svg+xml;utf8,<svg width="8" height="5" viewBox="0 0 8 5" fill="black" xmlns="http://www.w3.org/2000/svg"><path d="M0.94 0L4 3.09042L7.06 0L8 0.951417L4 5L0 0.951417L0.94 0Z" fill="black"/></svg>');
+	        background-image: url(https://vigo.wordcamp.org/2024/files/2024/03/angle-down-select.png); 
 		background-repeat: no-repeat;
 		background-position: right 10px top 13px;
 	        vertical-align: middle;
