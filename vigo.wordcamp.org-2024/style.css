@@ -258,6 +258,20 @@ body:not(.home) .wp-block-site-logo img {
 
 
 /**** FORMULARIOS ****/
+
+.wcv-form {
+	--form-gap: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: var(--form-gap);
+}
+	.wcv-form .form-control-50-wrap {
+		width: calc(50% - var(--form-gap) );
+		flex-basis: calc(50% - var(--form-gap) );
+	}
+
+
 form .grunion-field-wrap {
 	margin-bottom: 10px;
 }
