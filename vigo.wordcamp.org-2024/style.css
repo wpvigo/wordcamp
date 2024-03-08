@@ -267,7 +267,8 @@ body:not(.home) .wp-block-site-logo img {
 	margin-left: -20px;
 	margin-right: -20px;
 }
-	.wcv-form .grunion-field-wrap {
+	.wcv-form .grunion-field-wrap, 
+	.wcv-form .form-control-submit {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
