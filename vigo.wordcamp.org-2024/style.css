@@ -114,7 +114,7 @@ body:not(.home) .wp-block-site-logo img {
 			padding: 0;
 		}
 		.organizadores-wrapper .designedby {
-			margin-top: auto;
+			margin-top: auto!important;
 		}
 
 
