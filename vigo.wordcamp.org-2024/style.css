@@ -110,6 +110,9 @@ body:not(.home) .wp-block-site-logo img {
 		width: 100%;
 		max-width: 400px;
 	}
+		.organizadores-wrapper .wp-block-navigation__container li {
+			padding: 0;
+		}
 
 
 /***** CONTENT *****/
