@@ -311,18 +311,12 @@ form .grunion-field-wrap {
 		color: #222;
 		font-weight: 400;
 	}
-		form .grunion-field-wrap label em {
+		form .grunion-field-wrap label span.grunion-label-required {
 			margin-left: 10px;
 			color: #a44848;
 			font-size: 14px;
 			font-style: normal;
 			font-weight: 300;
-		}
-		form .grunion-field-wrap label em:before {
-			content: '(';
-		}
-		form .grunion-field-wrap label em:after {
-			content: ')';
 		}
 
 	form .grunion-field-wrap {
