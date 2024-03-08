@@ -104,7 +104,9 @@ body:not(.home) .wp-block-site-logo img {
 	justify-content: flex-end;
 }
 	.organizadores-wrapper {
-		display: inline-block!important;
+		display: flex!important;
+		align-items: flex-start;
+  		flex-direction: column;
 		width: 100%;
 		max-width: 400px;
 	}
