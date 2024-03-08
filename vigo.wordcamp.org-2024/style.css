@@ -80,7 +80,7 @@ body:not(.home) .wp-block-site-logo img {
             text-decoration: none;
         }
 	body:not(.home) .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
-            color:var(--wp--preset--color--custom-vigo)!important;
+            color: var(--wp--preset--color--custom-vigo)!important;
         }
 
 .wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
@@ -284,7 +284,7 @@ form .grunion-field-wrap {
 		max-width: 100%;
 		color: #222;
 		font-family: inherit;
-		border-color: #999;
+		border-color: var(--wp--preset--color--custom-border);
 	}
 		form .grunion-field-wrap input[type="color"], form .grunion-field-wrap input[type="date"], 
 		form .grunion-field-wrap input[type="datetime-local"], form .grunion-field-wrap input[type="datetime"], 
@@ -295,13 +295,13 @@ form .grunion-field-wrap {
 		form .grunion-field-wrap input[type="text"], form .grunion-field-wrap input[type="time"], 
 		form .grunion-field-wrap input[type="url"], form .grunion-field-wrap input[type="week"], 
 		form .grunion-field-wrap select, form .grunion-field-wrap textarea {
-            padding: 8px 12px;
-            color: #222;
-            font-weight: 400;
-            font-size: 15px;   
-            border-radius: 3px;
-			border:  1px solid #222;
-            background-color: #fff;
+			padding: 8px 12px;
+			color: #222;
+			font-weight: 400;
+			font-size: 15px;   
+			border-radius: 3px;
+			border:  1px solid var(--wp--preset--color--custom-border);
+            		background-color: #fff;
 		}
 	form .grunion-field-wrap textarea {
 		resize: vertical;
@@ -313,14 +313,14 @@ form .grunion-field-wrap {
 	        max-width: 25rem;
 	        line-height: var(--formfieldlineheight);
 	        -webkit-appearance: none;
-	        color: var(--formfieldcolor);
+	        color: #222;
 	        font-weight: var(--formfieldfontweight);
 		font-family: var(--bodyfontfamily);
 		font-size: var(--formfieldfontsize);
 		text-transform: var(--formfieldtexttransform);
 		letter-spacing: var(--formfieldletterspacing);
         	border-style: solid;
-		border-color: var(--formfieldbordercolor);
+		border-color: var(--wp--preset--color--custom-border);
 		border-width: var(--formfieldborderwidth);
 		border-radius: var(--formfieldborderradius,3px);
 	        background: var(--formfieldbgcolor) url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
