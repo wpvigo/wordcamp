@@ -273,8 +273,8 @@ body:not(.home) .wp-block-site-logo img {
 	flex-wrap: wrap;
 	flex: auto!important;
 	gap: 0!important;
-	margin-left: -20px;
-	margin-right: -20px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 	.wcv-form .grunion-field-wrap, 
 	.wcv-form .form-control-submit {
