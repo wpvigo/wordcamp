@@ -98,8 +98,8 @@ body:not(.home) .wp-block-site-logo img {
 
 /*** NAV RESPONSIVE ***/
 .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item {
-	margin: 0!important;
-	padding: 5px 0!important;
+	margin: 0 0 10px 0!important;
+	padding: 0!important;
 }
 	.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container {
 		margin: 0!important;
