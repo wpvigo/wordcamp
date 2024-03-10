@@ -309,6 +309,10 @@ body:not(.home) .wp-block-site-logo img {
 		width: 75%;
 		flex-basis: 75%;
 	}
+	.wcv-form .form-control-100-wrap {
+		width: 100%;
+		flex-basis: 100%;
+	}
 	
 
 form .grunion-field-wrap {
