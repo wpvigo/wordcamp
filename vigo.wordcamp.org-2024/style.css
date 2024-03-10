@@ -97,7 +97,7 @@ body:not(.home) .wp-block-site-logo img {
 		}
 
 /*** SUBNAV RESPONSIVE ***/
-.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item:not ul {
+.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item ul {
 	margin: 0!important;
 	padding: 0!important;
 }
