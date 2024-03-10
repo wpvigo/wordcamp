@@ -553,10 +553,10 @@ form .grunion-field-wrap {
 		margin-left: auto;
 	}
 		.wp-block-navigation__responsive-container {
-			background-image: url('https://vigo.wordcamp.org/2024/files/2024/03/2024-1.png');
-			background-position: 100% 100%;
-			background-repeat: no-repeat;
-			background-size: contain;
+			background-image: url('https://vigo.wordcamp.org/2024/files/2024/03/2024-1.png')!important;
+			background-position: 100% 100%!important;
+			background-repeat: no-repeat!important;
+			background-size: contain!important;
 		}
 
 
