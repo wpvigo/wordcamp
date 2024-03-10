@@ -100,7 +100,7 @@ body:not(.home) .wp-block-site-logo img {
 .wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item:not ul {
 	margin: 0;
 }
-	.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item:not ul li {
+	.wp-block-navigation__responsive-container .wp-block-navigation .wp-block-navigation-item {
 		margin: 0;
 		border-bottom: 0;
 	}
