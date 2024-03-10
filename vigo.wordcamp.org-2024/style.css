@@ -451,7 +451,7 @@ form .grunion-field-wrap {
 			content: 'Asegúrate de que todos los campos sean válidos';
 		}
 		form .contact-form__error ul {
-			margin-bottom: 0;
+			margin: 0;
 		}
 			form .contact-form__error li,
 			form .contact-form__error li a {
