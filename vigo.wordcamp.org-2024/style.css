@@ -583,7 +583,7 @@ form .grunion-field-wrap {
 						url('https://vigo.wordcamp.org/2024/files/2024/03/2024-block.png')!important;
 			background-position: left 30px top 20px, 100% 100%!important;
 			background-repeat: no-repeat, no-repeat!important;
-			background-size: 120px 103px, contain!important;
+			background-size: 120px 103px, 75% auto!important;
 		}
 
 
