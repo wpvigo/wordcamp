@@ -114,7 +114,7 @@ body:not(.home) .wp-block-site-logo img {
 			border-bottom: 0!important;
 		}
 			.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item a {
-				clamp(16px, 0.875rem + ((1vw - 3.2px) * 0.104), 16px)!important;
+				clamp(17px, 0.875rem + ((1vw - 3.2px) * 0.104), 17px)!important;
 			}
 
 
