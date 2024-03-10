@@ -587,7 +587,9 @@ form .grunion-field-wrap {
 		}
 
 
-
+	.organizadores-col {
+		margin: 0 -20px -30px -20px !important;
+	}
 	
 	.wcv-elevento {
 		padding-top: 60px;
