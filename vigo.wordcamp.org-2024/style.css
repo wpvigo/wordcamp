@@ -553,6 +553,7 @@ form .grunion-field-wrap {
 }
 
 @media screen and (max-width: 600px) {
+	
 	#wpadminbar {
 		position: fixed;
 		bottom: -999em;
@@ -561,6 +562,14 @@ form .grunion-field-wrap {
 	.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 {
 		margin-left: auto;
 	}
+		 .wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button {
+			padding: 5px;
+			border-radius: 5px;
+			background-color: var(--wp--preset--color--custom-vigo);
+		 }
+			.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button > svg {
+				fill: #fff!important;
+			 }
 		.wp-block-navigation__responsive-container {
 			background-image: url('https://vigo.wordcamp.org/2024/files/2024/03/2024-1.png')!important;
 			background-position: 100% 100%!important;
