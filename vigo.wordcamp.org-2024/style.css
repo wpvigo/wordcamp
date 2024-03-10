@@ -83,6 +83,11 @@ body:not(.home) .wp-block-site-logo img {
             color: var(--wp--preset--color--custom-vigo)!important;
         }
 
+	.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content.current-menu-item,
+	.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content.current-menu-item:hover {
+		color: var(--wp--preset--color--custom-vigo)!important;
+	}
+
 .wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
 	min-width: 260px!important;
 }
