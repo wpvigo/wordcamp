@@ -549,6 +549,10 @@ form .grunion-field-wrap {
 		bottom: -999em;
 	}
 
+	.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 {
+		margin-left: auto;
+	}
+
 	.wcv-elevento {
 		padding-top: 60px;
 		padding-bottom: 60px;
