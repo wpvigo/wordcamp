@@ -96,16 +96,19 @@ body:not(.home) .wp-block-site-logo img {
 			color: var(--wp--preset--color--custom-vigo)!important;
 		}
 
-/*** SUBNAV RESPONSIVE ***/
-.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container {
-	margin: 0!important;
-	padding: 0!important;
+/*** NAV RESPONSIVE ***/
+.wp-block-navigation__responsive-container-content .wp-block-navigation__container > .wp-block-navigation-item {
+	margin: 0 0 5px 0!important;
 }
-	.wp-block-navigation__responsive-container  .wp-block-navigation__submenu-container .wp-block-navigation-item {
+	.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container {
 		margin: 0!important;
 		padding: 0!important;
-		border-bottom: 0!important;
 	}
+		.wp-block-navigation__responsive-container  .wp-block-navigation__submenu-container .wp-block-navigation-item {
+			margin: 0!important;
+			padding: 0!important;
+			border-bottom: 0!important;
+		}
 
 
 /***** FOOTER *****/
