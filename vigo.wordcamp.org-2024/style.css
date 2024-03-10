@@ -445,7 +445,7 @@ form .grunion-field-wrap {
 		form .contact-form__error .contact-form__warning-icon + span {
 			display: none;
 		}
-		form .contact-form__error ul: before {
+		form .contact-form__error ul:before {
 			display: block;
 			margin: 0 0 30px 0;
 			content: 'Asegúrate de que todos los campos sean válidos';
