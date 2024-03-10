@@ -602,4 +602,17 @@ form .grunion-field-wrap {
 	.con-v-cols .con-v-col-data {
 		padding-top: 0px!important;
 	}
+
+	.wcv-form .form-control-25-wrap, 
+	.wcv-form .form-control-33-wrap, 
+	.wcv-form .form-control-40-wrap, 
+	.wcv-form .form-control-50-wrap, 
+	.wcv-form .form-control-60-wrap, 
+	.wcv-form .form-control-66-wrap, 
+	.wcv-form .form-control-70-wrap, 
+	.wcv-form .form-control-75-wrap, 
+	.wcv-form .form-control-100-wrap {
+		width: 100%;
+		flex-basis: 100%;
+	}
 }
