@@ -436,14 +436,22 @@ form .grunion-field-wrap {
 			margin: 0 0 5px 0
 		}
 
-	.go-back-message {
-		position: relative;
-		margin-bottom: 30px;
-		padding: 30px;
-		color: #fff;
-		border-radius: 3px;
-		background-color: var(--wp--preset--color--custom-mar);
+	.contact-form-submission {
+		margin: 0!important;
+		padding: 0!important;
+		border-width: 0;
 	}
+		.contact-form-submission .go-back-message {
+			display: none;
+		}
+		.contact-form-submission .go-back-message + h4 {
+			position: relative;
+			margin-bottom: 30px;
+			padding: 30px;
+			color: #fff;
+			border-radius: 3px;
+			background-color: var(--wp--preset--color--custom-mar);
+		}
 	form .grunion-field-wrap .contact-form__input-error {
 		position: absolute;
 		bottom: 10px;
