@@ -562,12 +562,14 @@ form .grunion-field-wrap {
 	.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 {
 		margin-left: auto;
 	}
-		 .wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button {
+		.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button,
+		.wp-block-navigation__responsive-close > .wp-block-navigation__responsive-dialog > button {
 			padding: 5px;
 			border-radius: 5px;
 			background-color: var(--wp--preset--color--custom-vigo);
 		 }
-			.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button > svg {
+			.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button > svg, 
+			.wp-block-navigation__responsive-close > .wp-block-navigation__responsive-dialog > button > svg {
 				fill: #fff!important;
 			 }
 		.wp-block-navigation__responsive-container {
