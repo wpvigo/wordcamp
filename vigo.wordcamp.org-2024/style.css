@@ -98,11 +98,11 @@ body:not(.home) .wp-block-site-logo img {
 
 /*** SUBNAV RESPONSIVE ***/
 .wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item:not ul {
-	margin: 0;
+	margin: 0!important;
 }
 	.wp-block-navigation__responsive-container .wp-block-navigation .wp-block-navigation-item {
 		margin: 0;
-		border-bottom: 0;
+		border-bottom: 0!important;
 	}
 
 
