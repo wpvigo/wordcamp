@@ -576,10 +576,11 @@ form .grunion-field-wrap {
 				fill: #fff!important;
 			 }
 		.wp-block-navigation__responsive-container {
-			background-image: url('https://vigo.wordcamp.org/2024/files/2024/03/2024-1.png')!important;
-			background-position: 100% 100%!important;
-			background-repeat: no-repeat!important;
-			background-size: contain!important;
+			background-image: 	url('https://vigo.wordcamp.org/2024/files/2024/02/wcvigo-2024.png'), 
+						url('https://vigo.wordcamp.org/2024/files/2024/03/2024-1.png')!important;
+			background-position: left 100px top 100px, 100% 100%!important;
+			background-repeat: no-repeat, no-repeat!important;
+			background-size: auto, contain!important;
 		}
 
 
