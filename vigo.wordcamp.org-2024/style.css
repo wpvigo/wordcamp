@@ -441,6 +441,15 @@ form .grunion-field-wrap {
 		border-radius: 3px;
 		background-color: color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 25%);
 	}
+		form .contact-form__error .contact-form__warning-icon, 
+		form .contact-form__error .contact-form__warning-icon + span {
+			display: none;
+		}
+		form .contact-form__error ul: before {
+			display: block;
+			margin: 0 0 30px 0;
+			content: 'Asegúrate de que todos los campos sean válidos';
+		}
 		form .contact-form__error ul {
 			margin-bottom: 0;
 		}
