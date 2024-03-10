@@ -568,6 +568,9 @@ form .grunion-field-wrap {
 			border-radius: 5px;
 			background-color: var(--wp--preset--color--custom-vigo);
 		 }
+		.wp-block-navigation__responsive-close > .wp-block-navigation__responsive-dialog > button {
+			top: -8px!important;
+		}
 			.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 > button > svg, 
 			.wp-block-navigation__responsive-close > .wp-block-navigation__responsive-dialog > button > svg {
 				fill: #fff!important;
