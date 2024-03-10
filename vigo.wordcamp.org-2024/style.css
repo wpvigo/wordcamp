@@ -96,6 +96,15 @@ body:not(.home) .wp-block-site-logo img {
 			color: var(--wp--preset--color--custom-vigo)!important;
 		}
 
+/*** SUBNAV RESPONSIVE ***/
+.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item:not ul {
+	margin: 0;
+}
+	.wp-block-navigation__responsive-container .wp-block-navigation__submenu-container .wp-block-navigation-item:not ul li {
+		margin: 0;
+		border-bottom: 0;
+	}
+
 
 /***** FOOTER *****/
 
