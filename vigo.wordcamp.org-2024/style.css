@@ -83,8 +83,8 @@ body:not(.home) .wp-block-site-logo img {
             color: var(--wp--preset--color--custom-vigo)!important;
         }
 
-	.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content.current-menu-item,
-	.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content.current-menu-item:hover {
+	.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content.current-menu-item a,
+	.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content.current-menu-item a:hover {
 		color: var(--wp--preset--color--custom-vigo)!important;
 	}
 
