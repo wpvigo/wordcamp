@@ -114,7 +114,7 @@ body:not(.home) .wp-block-site-logo img {
 			border-bottom: 0!important;
 		}
 			.wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item a {
-				clamp(16px, 0.875rem + ((1vw - 3.2px) * 0.104), 16px)!important;
+				font-size: clamp(16px, 0.875rem + ((1vw - 3.2px) * 0.104), 16px)!important;
 			}
 
 
