@@ -520,6 +520,8 @@ form .grunion-field-wrap {
 		padding-right: var(--wp--style--root--padding-right);
 		background-position: 100% 100%!important;
 		background-image: url('https://vigo.wordcamp.org/2024/files/2024/03/2024-block.png')!important;
+		background-size: auto calc( 100% + 40px) !important;
+    		background-position: 100% center !important;
 	}
 	
 	
