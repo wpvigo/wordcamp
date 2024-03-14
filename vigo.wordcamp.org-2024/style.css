@@ -674,7 +674,7 @@ form .grunion-field-wrap {
 	}
 		.wp-block-jetpack-subscriptions__form-elements #subscribe-email, 
 		.wp-block-jetpack-subscriptions__form-elements #subscribe-submit {
-			margin-bottom: 5px;
+			margin-bottom: 5px!important;
 			width: 100%;
 		}
 		.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field,
