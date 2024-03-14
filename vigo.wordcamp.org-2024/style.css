@@ -153,6 +153,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 /***** CONTENT *****/
 
 .single-wcb_sponsor #wp--skip-link--target { margin-top: 0!important; }
+.supporter-logo img { max-width: 640px; height: auto;}
 
 /*** TITLES ***/
 .wcv-header-title {
