@@ -681,7 +681,7 @@ form .grunion-field-wrap {
 		.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field:focus, 
 		.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field:focus-within, 
 		.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field:focus-visible {
-			outline-width: 0!important;
+			outline: 0 solid transparent!important;
 		}
 			.wp-block-jetpack-subscriptions__form-elements #subscribe-submit button {
 				margin: 0!important;
