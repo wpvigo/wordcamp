@@ -152,6 +152,8 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 /***** CONTENT *****/
 
+.single-wcb_sponsor #wp--skip-link--target { margin-top: 0!important; }
+
 /*** TITLES ***/
 .wcv-header-title {
 	padding-left: var(--wp--style--root--padding-left);
