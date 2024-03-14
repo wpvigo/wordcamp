@@ -668,4 +668,12 @@ form .grunion-field-wrap {
 		width: 100%;
 		flex-basis: 100%;
 	}
+
+	.wp-block-jetpack-subscriptions__form-elements {
+		flex-wrap: wrap;
+	}
+		.wp-block-jetpack-subscriptions__form-elements #subscribe-email, 
+		.wp-block-jetpack-subscriptions__form-elements #subscribe-submit {
+			width: 100%;
+		}
 }
