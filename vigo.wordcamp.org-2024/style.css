@@ -558,6 +558,9 @@ form .grunion-field-wrap {
 		.wcv-programa-columns > .wp-block-column.wcv-programa-column-26:before {
 			content: none!important; 
 		}
+	.wcv-programa-columns > .wp-block-column.wcv-programa-column-24 { order: 1;}
+	.wcv-programa-columns > .wp-block-column.wcv-programa-column-25 { order: 2;}
+	.wcv-programa-columns > .wp-block-column.wcv-programa-column-26 { order: 3;}
 	body .wcv-programa-columns > .wp-block-column.wcv-programa-column-icon {
 		display: none;
 	}
