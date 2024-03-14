@@ -164,9 +164,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 /*** PATROCINADORES ***/
 .single-wcb_sponsor .taxonomy-wcb_sponsor_level {
-	color: #000;
 	pointer-events: none;
 }
+	.single-wcb_sponsor .taxonomy-wcb_sponsor_level > span { color: inherit; }
 
 /*** BLOCKS ***/
 
