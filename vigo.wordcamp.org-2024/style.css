@@ -51,7 +51,8 @@ a {
 
 :where(.wp-site-blocks) > *,
 body.single #wp--skip-link--target {
-	margin-block-start: 0;
+	margin-block-start: 0!important;
+	margin-top: 0!important;
 }
 
 /***** HEADER *****/
