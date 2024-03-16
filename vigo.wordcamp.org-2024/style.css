@@ -193,7 +193,6 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			top: 4px;
 		}
 		#user-badges .is-member .badge.badge-organizer {
-			
 			background: white;
   			box-shadow: 0 0 0 4px rgb(247, 173, 67);
 		}
@@ -208,6 +207,20 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		#user-badges .is-member .badge.badge-photos-team::before, 
 		#user-badges .is-member .badge.badge-photo-contributor::before {
 			color: rgb(203, 0, 240);
+		}
+		#user-badges .is-member .badge.badge-translation-contributor {
+			background: white;
+  			box-shadow: 0 0 0 4px rgb(195, 34, 131);
+		}
+		#user-badges .is-member .badge.badge-translation-contributor:before {
+			color: rgb(195, 34, 131);
+		}
+		#user-badges .is-member .badge.badge-translation-editor {
+			background: rgba(195, 34, 131, 0.25);
+  			box-shadow: 0 0 0 4px rgb(195, 34, 131);
+		}
+		#user-badges .is-member .badge.badge-translation-editor:before {
+			color: rgb(195, 34, 131);
 		}
 
 /*** BLOCKS ***/
