@@ -163,6 +163,39 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 }
 	.single-wcb_sponsor .taxonomy-wcb_sponsor_level > span { color: inherit; }
 
+
+/*** ORGANIZADORES ***/
+
+#user-badges {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -30px;
+	width: 100%;
+	gap: 0 30px;
+}
+	#user-badges .is-member {
+		padding: 0 15px;
+	}
+		#user-badges .is-member .badge {
+			position: relative;
+			margin: 4px;
+			width: 32px;
+			height: 32px;
+			border: 2px solid white;
+			border-radius: 50%;
+			box-sizing: border-box;
+			position: absolute;
+			top: 8px;
+			left: 0;
+		  	top: 2px;
+		  	font-size: 24px;
+		}
+		#user-badges .is-member .badge {
+			color: rgb(247, 173, 67);
+			background: white;
+  			box-shadow: 0 0 0 4px rgb(247, 173, 67);
+		}
+
 /*** BLOCKS ***/
 
 /** WELCOME HOME **/
