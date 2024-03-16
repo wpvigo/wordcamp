@@ -188,17 +188,22 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			box-sizing: border-box;
 			top: 2px;
 		}
+		#user-badges .is-member .badge:before {
+			position: relative;
+			top: 4px;
+		}
 		#user-badges .is-member .badge.badge-organizer {
-			color: rgb(247, 173, 67);
+			
 			background: white;
   			box-shadow: 0 0 0 4px rgb(247, 173, 67);
 		}
 		#user-badges .is-member .badge.badge-organizer:before {
-			position: relative;
+			color: rgb(247, 173, 67);
 		}
 		#user-badges .is-member .badge.badge-photos-team, 
 		#user-badges .is-member .badge.badge-photo-contributor {
-			border-color: rgb(203, 0, 240);
+			background: white;
+			box-shadow: 0 0 0 4px rgb(203, 0, 240);
 		}
 		#user-badges .is-member .badge.badge-photos-team::before, 
 		#user-badges .is-member .badge.badge-photo-contributor::before {
