@@ -195,6 +195,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			background: white;
   			box-shadow: 0 0 0 4px rgb(247, 173, 67);
 		}
+		#user-badges .is-member .badge.badge-photos-team::before, #user-badges .is-member .badge.badge-photo-contributor::before {
+			color: rgb(203, 0, 240);
+		}
 
 /*** BLOCKS ***/
 
