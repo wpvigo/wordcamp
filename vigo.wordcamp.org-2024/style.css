@@ -660,6 +660,10 @@ form .grunion-field-wrap {
 			flex-basis: 1!important;
 			width: 100%!important;
 		}
+
+	#user-badges .is-member {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -741,4 +745,8 @@ form .grunion-field-wrap {
 				margin: 0!important;
 				width: 100%;
 			}
+
+	#user-badges .is-member {
+		width: 100%;
+	}
 }
