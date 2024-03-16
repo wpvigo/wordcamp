@@ -186,16 +186,22 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			border: 2px solid white;
 			border-radius: 50%;
 			box-sizing: border-box;
-			top: 8px;
-			left: 0;
-		  	top: 2px;
+			top: 2px;
 		}
-		#user-badges .is-member .badge {
+		#user-badges .is-member .badge.badge-organizer {
 			color: rgb(247, 173, 67);
 			background: white;
   			box-shadow: 0 0 0 4px rgb(247, 173, 67);
 		}
-		#user-badges .is-member .badge.badge-photos-team::before, #user-badges .is-member .badge.badge-photo-contributor::before {
+		#user-badges .is-member .badge.badge-organizer:before {
+			position: relative;
+		}
+		#user-badges .is-member .badge.badge-photos-team, 
+		#user-badges .is-member .badge.badge-photo-contributor {
+			border-color: rgb(203, 0, 240);
+		}
+		#user-badges .is-member .badge.badge-photos-team::before, 
+		#user-badges .is-member .badge.badge-photo-contributor::before {
 			color: rgb(203, 0, 240);
 		}
 
