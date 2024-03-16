@@ -169,8 +169,8 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 #user-badges {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -30px;
-	width: 100%;
+	margin-left: -30px;
+	margin-right: -30px;
 	gap: 0 30px;
 }
 	#user-badges .is-member {
@@ -178,17 +178,15 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	}
 		#user-badges .is-member .badge {
 			position: relative;
-			margin: 4px;
-			width: 32px;
-			height: 32px;
+			margin: 4px!important;
+			width: 32px!important;
+			height: 32px!important;
 			border: 2px solid white;
 			border-radius: 50%;
 			box-sizing: border-box;
-			position: absolute;
 			top: 8px;
 			left: 0;
 		  	top: 2px;
-		  	font-size: 24px;
 		}
 		#user-badges .is-member .badge {
 			color: rgb(247, 173, 67);
