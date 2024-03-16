@@ -174,7 +174,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	gap: 0 30px;
 }
 	#user-badges .is-member {
+		margin: 0!important;
 		padding: 0 15px;
+		width: 33.3333%;
 	}
 		#user-badges .is-member .badge {
 			position: relative;
