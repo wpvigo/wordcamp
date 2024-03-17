@@ -166,6 +166,22 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 /*** ORGANIZADORES ***/
 
+.page-slug-organizadores . wcb_organizer .wp-block-columns:nth-child(1) {
+	width: 100px;
+}
+.page-slug-organizadores . wcb_organizer .wp-block-columns:nth-child(2) {
+	flex: 1;
+}
+	.page-slug-organizadores . wcb_organizer h2.wp-block-post-title {
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.page-slug-organizadores . wcb_organizer h3.wp-block-heading {
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+
 #user-badges {
 	display: flex;
 	flex-wrap: wrap;
