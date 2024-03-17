@@ -88,7 +88,7 @@ body.single #wp--skip-link--target {
 	min-width: 260px!important;
 }
 	.wp-block-navigation__submenu-container .wp-block-navigation-item a {
-		font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.104), 14px);
+		font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.104), 14px)!important;
 	}
 	.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item:not(:last-child) {
 		border-bottom: 1px dotted #999;
