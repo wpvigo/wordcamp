@@ -217,6 +217,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			box-sizing: border-box;
 			top: 2px;
 		}
+		#user-badges .is-member p {
+			margin: 0!important;
+		}
 		#user-badges .is-member .badge:before {
 			position: relative;
 			top: 4px;
