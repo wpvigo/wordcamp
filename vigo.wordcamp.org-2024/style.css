@@ -186,6 +186,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			font-size: 24px!important;
 			font-weight: 600!important;
 		}
+		.page-slug-organizadores .wcb_organizer .wp-block-spacer, 
 		.page-slug-organizadores .wcb_organizer .wp-block-separator {
 			display: none;
 		}
