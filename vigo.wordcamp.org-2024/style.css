@@ -178,11 +178,11 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		padding-bottom: 30px;
 		border-bottom: 1px dotted #999;
 	}
-		.page-slug-organizadores .wcb_organizer h2.wp-block-post-title {
+		.page-slug-organizadores .wcb_organizer h2 {
 			font-size: 30px!important;
 			font-weight: 600!important;
 		}
-		.page-slug-organizadores .wcb_organizer h3.wp-block-heading {
+		.page-slug-organizadores .wcb_organizer h3 {
 			font-size: 24px!important;
 			font-weight: 600!important;
 		}
