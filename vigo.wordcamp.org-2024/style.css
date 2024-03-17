@@ -87,7 +87,7 @@ body.single #wp--skip-link--target {
 .wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
 	min-width: 260px!important;
 }
-	.wp-block-navigation__submenu-container .wp-block-navigation-item a {
+	.wp-block-navigation .has-child.wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item > .wp-block-navigation-item__content {
 		font-size: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.104), 14px)!important;
 	}
 	.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item:not(:last-child) {
