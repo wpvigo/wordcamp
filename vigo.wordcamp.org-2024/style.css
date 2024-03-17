@@ -290,22 +290,28 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		
 		}
 		#tix table tbody tr {
-		
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
 		}
 			#tix table tbody tr td {
 			
 			}
 			#tix table tbody tr th.tix-column-description {
-			
+				width: calc( 100% - 100px );
 			}
 			#tix table tbody tr td.tix-column-price {
-			
+				width: 100px;
 			}
 			#tix table tbody tr td.tix-column-remaining {
-			
+				width: 50%;
 			}
+				#tix table tbody tr td.tix-column-remaining.before {
+					content: 'Quedan ';
+				}
 			#tix table tbody tr td.tix-column-quantity {
-			
+				width: 50%;
+				text-align: right;
 			}
 			#tix table tbody tr td {
 			
