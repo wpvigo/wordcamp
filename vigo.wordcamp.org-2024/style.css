@@ -189,6 +189,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		.page-slug-organizadores .wcb_organizer p {
 			margin: 0 0 1.3rem 0!important;
 		}
+		.page-slug-organizadores .wcb_organizer .profile p {
+			margin: 0!important;
+		}
 		.page-slug-organizadores .wcb_organizer > .wp-block-spacer, 
 		.page-slug-organizadores .wcb_organizer > .wp-block-separator {
 			display: none;
