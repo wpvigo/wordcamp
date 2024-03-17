@@ -166,11 +166,11 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 /*** ORGANIZADORES ***/
 
-.page-slug-organizadores .wcb_organizer .wp-block-column:nth-child(1) {
+.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(1) {
 	width: 150px!important;
 	flex-basis: 150px!important;
 }
-.page-slug-organizadores .wcb_organizer .wp-block-column:nth-child(2) {
+.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(2) {
 	flex: 1!important;
 }
 	.page-slug-organizadores .wcb_organizer h2.wp-block-post-title {
