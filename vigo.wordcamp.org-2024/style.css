@@ -194,7 +194,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		}
 		
 		#user-badges .is-member .badge.badge-organizer {
-			background: white;
+			background: #fff;
   			box-shadow: 0 0 0 4px rgb(247, 173, 67);
 		}
 		#user-badges .is-member .badge.badge-organizer:before {
@@ -203,7 +203,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 		#user-badges .is-member .badge.badge-photos-team, 
 		#user-badges .is-member .badge.badge-photo-contributor {
-			background: white;
+			background: #fff;
 			box-shadow: 0 0 0 4px rgb(203, 0, 240);
 		}
 		#user-badges .is-member .badge.badge-photos-team::before, 
@@ -212,7 +212,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		}
 
 		#user-badges .is-member .badge.badge-translation-contributor {
-			background: white;
+			background: #fff;
   			box-shadow: 0 0 0 4px rgb(195, 34, 131);
 		}
 		#user-badges .is-member .badge.badge-translation-contributor:before {
@@ -235,12 +235,12 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			color: rgb(240, 103, 35);
 		}
 
-		#user-badges .is-member .badge.badge-translation-editor {
-			background: rgba(195, 34, 131, 0.25);
-  			box-shadow: 0 0 0 4px rgb(195, 34, 131);
+		#user-badges .is-member .badge.badge-speaker {
+			background: #fff;
+  			box-shadow: 0 0 0 4px rgb(247, 173, 67);
 		}
-		#user-badges .is-member .badge.badge-translation-editor:before {
-			color: rgb(195, 34, 131);
+		#user-badges .is-member .badge.badge-speaker:before {
+			color: rgb(247, 173, 67);
 		}
 
 /*** BLOCKS ***/
