@@ -173,14 +173,22 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 .page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(2) {
 	flex: 1!important;
 }
-	.page-slug-organizadores .wcb_organizer h2.wp-block-post-title {
-		font-size: 30px!important;
-		font-weight: 600!important;
+	.page-slug-organizadores ul .wcb_organizer:not(:last-child) {
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: 1px dotted #999;
 	}
-	.page-slug-organizadores .wcb_organizer h3.wp-block-heading {
-		font-size: 24px!important;
-		font-weight: 600!important;
-	}
+		.page-slug-organizadores .wcb_organizer h2.wp-block-post-title {
+			font-size: 30px!important;
+			font-weight: 600!important;
+		}
+		.page-slug-organizadores .wcb_organizer h3.wp-block-heading {
+			font-size: 24px!important;
+			font-weight: 600!important;
+		}
+		.page-slug-organizadores .wcb_organizer .wp-block-separator {
+			display: none;
+		}
 
 
 #user-badges {
