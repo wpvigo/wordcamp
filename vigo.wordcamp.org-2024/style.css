@@ -278,6 +278,44 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			color: rgb(247, 173, 67);
 		}
 
+
+/*** ENTRADAS ***/
+#tix {
+
+}
+	#tix table {
+	
+	}
+		#tix table thead th {
+		
+		}
+		#tix table tbody tr {
+		
+		}
+			#tix table tbody tr td {
+			
+			}
+			#tix table tbody tr th.tix-column-description {
+			
+			}
+			#tix table tbody tr td.tix-column-price {
+			
+			}
+			#tix table tbody tr td.tix-column-remaining {
+			
+			}
+			#tix table tbody tr td.tix-column-quantity {
+			
+			}
+			#tix table tbody tr td {
+			
+			}
+			#tix table tbody tr td {
+			
+			}
+
+
+
 /*** BLOCKS ***/
 
 /** WELCOME HOME **/
