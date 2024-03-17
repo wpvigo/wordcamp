@@ -710,6 +710,14 @@ form .grunion-field-wrap {
 	#user-badges .is-member {
 		width: 50%;
 	}
+
+	.page-slug-organizadores .wcb_organizer > .wp-block-columns {
+		flex-direction: column;
+	}
+		.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column {
+			width: 100%!important;
+			flex-basis: 100%!important;
+		}
 }
 
 @media screen and (max-width: 600px) {
