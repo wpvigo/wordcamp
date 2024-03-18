@@ -330,6 +330,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			border-top: 1px dotted #999;
 		}
 			#tix #tix_checkout_form .tix-submit .tix-wide-tab {
+				display: none!important;
 				width: 100%!important;
 				float: none!important;
 				font-weight: 400;
