@@ -854,8 +854,11 @@ form .grunion-field-wrap {
 			#tix table tbody tr td.tix-column-remaining {
 				width: 50%;
 			}
-				#tix table tbody tr td.tix-column-remaining.before {
+				#tix table tbody tr td.tix-column-remaining:before {
 					content: 'Quedan ';
+				}
+				#tix table tbody tr td.tix-column-remaining:after {
+					content: ' unidades';
 				}
 			#tix table tbody tr td.tix-column-quantity {
 				width: 50%;
