@@ -839,6 +839,8 @@ form .grunion-field-wrap {
 			
 			}
 			#tix table tbody tr th.tix-column-description {
+				margin-left: 0;
+				margin-right: auto;
 				width: calc( 100% - 100px );
 			}
 			#tix table tbody tr td.tix-column-price {
