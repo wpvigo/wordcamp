@@ -577,6 +577,18 @@ form .grunion-field-wrap {
 			margin: 0 0 5px 0
 		}
 
+	form input[type="submit"], form button[type="submit"] {
+		padding: calc(0.6rem - 1px) calc(1rem - 1px) calc(0.6rem - 1px) calc(1rem - 1px);
+		line-height: inherit;
+		color: var(--wp--preset--color--base-2) !important;
+		font-family: inherit;
+		font-size: var(--wp--preset--font-size--small);
+		font-style: normal;
+		font-weight: 500;
+		border-width: 0;
+		background-color: var(--wp--preset--color--custom-vigo) !important;
+	}
+
 	.contact-form-submission {
 		margin: 0!important;
 		padding: 0!important;
