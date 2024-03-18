@@ -284,22 +284,25 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 #tix {
 	
 }
-	#tix table.tix-tickets-list {
-		width: 100%;
-		text-align: left;
+	#tix > form {
+		max-width: 640px;
 	}
-
-#tix_checkout_form table.tix-attendee-form {
-	max-width: 640px;
-}
-	#tix_checkout_form table.tix-attendee-form tr {
-		display: block;
-		margin-bottom: 10px;
-	}
-		#tix_checkout_form table.tix-attendee-form tr td {
-			display: block;
+		#tix table.tix-tickets-list {
 			width: 100%;
+			text-align: left;
 		}
+
+		#tix_checkout_form table.tix-attendee-form {
+			max-width: 640px;
+		}
+			#tix_checkout_form table.tix-attendee-form tr {
+				display: block;
+				margin-bottom: 10px;
+			}
+				#tix_checkout_form table.tix-attendee-form tr td {
+					display: block;
+					width: 100%;
+				}
 
 /*** BLOCKS ***/
 
