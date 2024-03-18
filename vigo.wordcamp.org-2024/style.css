@@ -674,6 +674,12 @@ form .grunion-field-wrap {
 		background-color: var(--wp--preset--color--custom-vigo) !important;
 	}
 
+	.tix-error {
+		padding: 15px;
+		border-width: 0;
+  		background-color: color-mix(in srgb, var(--wp--preset--color--custom-vigo), #fff 75%);
+	}
+
 	.contact-form-submission {
 		margin: 0!important;
 		padding: 0!important;
