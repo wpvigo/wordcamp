@@ -281,6 +281,13 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 /*** ENTRADAS ***/
 
+#tix {
+	max-width: 640px;
+}
+	#tix table.tix-tickets-list {
+		width: 100%;
+	}
+
 #tix_checkout_form table.tix-attendee-form {
 	max-width: 640px;
 }
