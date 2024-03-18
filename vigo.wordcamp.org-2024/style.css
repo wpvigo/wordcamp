@@ -282,10 +282,12 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 /*** ENTRADAS ***/
 
 #tix {
+	margin-left: 0!important;
 	max-width: 640px;
 }
 	#tix table.tix-tickets-list {
 		width: 100%;
+		text-align: left;
 	}
 
 #tix_checkout_form table.tix-attendee-form {
