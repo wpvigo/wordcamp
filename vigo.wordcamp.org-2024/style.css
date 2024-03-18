@@ -287,11 +287,13 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	#tix > form {
 		max-width: 640px;
 	}
-		#tix table.tix-tickets-list {
+		#tix table.tix-tickets-list,
+		#tix table.tix-order-summary {
 			width: 100%;
 			text-align: left;
 		}
-			#tix table.tix-tickets-list thead th {
+			#tix table.tix-tickets-list thead th, 
+			#tix table.tix-order-summary thead th {
 				text-align: left;
 				font-weight: 600;
 			}
