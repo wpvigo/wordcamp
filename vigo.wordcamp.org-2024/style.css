@@ -664,7 +664,7 @@ form .grunion-field-wrap {
 		font-size: var(--wp--preset--font-size--small);
 		font-style: normal;
 		font-weight: 500;
-		border-width: 0;
+		border-color: var(--wp--preset--color--custom-vigo)!important;
 		background-color: var(--wp--preset--color--custom-vigo) !important;
 	}
 
