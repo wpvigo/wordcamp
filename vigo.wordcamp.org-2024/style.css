@@ -833,12 +833,10 @@ form .grunion-field-wrap {
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row;
-			gap: 0;
-		}
-		#tix table tbody tr:not(:last-child) {
 			margin-bottom: 30px;
 			padding-bottom: 30px;
 			border-bottom: 1px dotted #999;
+			gap: 0;
 		}
 			#tix table tbody tr td {
 			
@@ -852,7 +850,7 @@ form .grunion-field-wrap {
 				text-align: right;
 			}
 			#tix table tbody tr td.tix-column-remaining {
-				width: 50%;
+				width: 65%;
 			}
 				#tix table tbody tr td.tix-column-remaining:before {
 					content: 'Quedan ';
@@ -861,13 +859,7 @@ form .grunion-field-wrap {
 					content: ' unidades';
 				}
 			#tix table tbody tr td.tix-column-quantity {
-				width: 50%;
+				width: 35%;
 				text-align: right;
-			}
-			#tix table tbody tr td {
-			
-			}
-			#tix table tbody tr td {
-			
 			}
 }
