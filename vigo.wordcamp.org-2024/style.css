@@ -300,6 +300,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			#tix table.tix-tickets-list tbody tr.tix-row-coupon td {
 				padding: 15px 0;
 			}
+				#tix table.tix-tickets-list tbody tr.tix-row-coupon td input[type="submit"] {
+					border-width: 0!important;
+				}
 
 		#tix_checkout_form table.tix-attendee-form {
 			max-width: 640px;
