@@ -315,6 +315,11 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 				#tix_checkout_form table.tix-attendee-form tr td.tix-right input {
 
 				}
+					#tix_checkout_form table.tix-attendee-form tr td a {
+						color: var(--wp--preset--color--custom-vigo) !important;
+						font-weight: 400;
+						text-decoration: underline;
+					}
 					#tix_checkout_form table.tix-attendee-form tr td input[type="text"],
 					#tix_checkout_form table.tix-attendee-form tr td input[type="email"], 
 					#tix_checkout_form table.tix-attendee-form tr td input[type="number"], 
