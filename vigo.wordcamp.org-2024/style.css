@@ -499,15 +499,15 @@ form .grunion-field-wrap {
 		font-family: inherit;
 		border-color: var(--wp--preset--color--custom-borde);
 	}
-		form .grunion-field-wrap input[type="color"], form .grunion-field-wrap input[type="date"], 
-		form .grunion-field-wrap input[type="datetime-local"], form .grunion-field-wrap input[type="datetime"], 
-		form .grunion-field-wrap input[type="email"], form .grunion-field-wrap input[type="month"], 
-		form .grunion-field-wrap input[type="number"], form .grunion-field-wrap input[type="password"], 
-		form .grunion-field-wrap input[type="reset"], form .grunion-field-wrap input[type="search"], 
-		form .grunion-field-wrap input[type="submit"], form .grunion-field-wrap input[type="tel"], 
-		form .grunion-field-wrap input[type="text"], form .grunion-field-wrap input[type="time"], 
-		form .grunion-field-wrap input[type="url"], form .grunion-field-wrap input[type="week"], 
-		form .grunion-field-wrap select, form .grunion-field-wrap textarea {
+		form input[type="color"], form input[type="date"], 
+		form input[type="datetime-local"], form input[type="datetime"], 
+		form input[type="email"], form input[type="month"], 
+		form input[type="number"], form input[type="password"], 
+		form input[type="reset"], form input[type="search"], 
+		form input[type="submit"], form input[type="tel"], 
+		form input[type="text"], form input[type="time"], 
+		form input[type="url"], form input[type="week"], 
+		form select, form textarea {
 			padding: 8px 12px;
 			color: #222;
 			font-weight: 400;
@@ -516,29 +516,29 @@ form .grunion-field-wrap {
 			border:  1px solid var(--wp--preset--color--custom-borde);
             		background-color: #fff;
 		}
-		form .grunion-field-wrap input:focus,
-		form .grunion-field-wrap select:focus,
-		form .grunion-field-wrap textarea:focus{
+		form input:focus,
+		form select:focus,
+		form textarea:focus{
 			border-color: var(--wp--preset--color--custom-mar);
 			outline: 1px solid var(--wp--preset--color--custom-mar);
 		}
-		form .grunion-field-wrap input[aria-invalid="true"], 
-		form .grunion-field-wrap select[aria-invalid="true"], 
-		form .grunion-field-wrap textarea[aria-invalid="true"] {
+		form input[aria-invalid="true"], 
+		form select[aria-invalid="true"], 
+		form textarea[aria-invalid="true"] {
 			border-color: var(--wp--preset--color--custom-vigo);
 			outline: 1px solid var(--wp--preset--color--custom-vigo);
 		}
-		form .grunion-field-wrap input[aria-invalid="true"]:focus, 
-		form .grunion-field-wrap select[aria-invalid="true"]:focus,
-		form .grunion-field-wrap textarea[aria-invalid="true"]:focus {
+		form input[aria-invalid="true"]:focus, 
+		form select[aria-invalid="true"]:focus,
+		form textarea[aria-invalid="true"]:focus {
 			border-color: color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 50%);
 			outline: 1px solid color-mix(in srgb, var(--wp--preset--color--custom-vigo), #000 50%);
 		}
 
-	form .grunion-field-wrap textarea {
+	form textarea {
 		resize: vertical;
 	}
-	form .grunion-field-wrap select {
+	form select {
         	padding: 8px 40px 8px 12px;
 		min-height: 41px;
 	        max-width: 100%;
@@ -559,10 +559,10 @@ form .grunion-field-wrap {
 		cursor: pointer;
     	}
 
-	form .grunion-field-wrap fieldset {
+	form fieldset {
 		border-width: 0;
 	}
-		form .grunion-field-wrap fieldset > p {
+		form fieldset > p {
 			margin: 0 0 5px 0
 		}
 
@@ -584,6 +584,7 @@ form .grunion-field-wrap {
 			border-radius: 3px;
 			background-color: var(--wp--preset--color--custom-mar);
 		}
+
 	form .grunion-field-wrap .contact-form__input-error {
 		position: absolute;
 		bottom: 10px;
@@ -631,11 +632,6 @@ form .grunion-field-wrap {
 			form .contact-form__error li a {
 				color: #fff;
 			}
-
-	.wappina-contacto {
-		max-width: 300px;
-	}
-
 
 
 
