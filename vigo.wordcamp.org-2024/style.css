@@ -301,7 +301,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 				padding: 15px 0;
 			}
 				#tix table.tix-tickets-list tbody tr.tix-row-coupon td input[type="submit"] {
-					border-width: 0!important;
+					padding: 6px 12px!important;
 				}
 
 		#tix_checkout_form table.tix-attendee-form {
@@ -669,6 +669,8 @@ form .grunion-field-wrap {
 		font-weight: 400;
 		border-radius: 3px;
 		border: 1px solid var(--wp--preset--color--custom-vigo)!important;
+		outline-width: 0!important;
+		box-shadow: none!important;
 		background-color: var(--wp--preset--color--custom-vigo) !important;
 	}
 
