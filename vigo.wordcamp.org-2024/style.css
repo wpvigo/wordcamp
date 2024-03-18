@@ -321,6 +321,19 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 					#tix_checkout_form table.tix-attendee-form tr td input[type="date"] {
 						width: 100%;
 					}
+				#tix_checkout_form table.tix-attendee-form tr.tix-row-health-advisory {
+					padding: 20px;
+					border-radius: 3px;
+					background-color: color-mix(in srgb, var(--wp--preset--color--custom-mar), #fff 75%);
+				}
+					#tix_checkout_form table.tix-attendee-form tr.tix-row-health-advisory td p {
+						margin: 0 0 15px 0;
+						font-weight: 400;
+						font-size: 0.9rem;
+					}
+					#tix_checkout_form table.tix-attendee-form tr.tix-row-health-advisory td p:last-child {
+						margin: 0;
+					}
 		#tix #tix_checkout_form .tix-submit {
 			display: block;
 			float: none;
