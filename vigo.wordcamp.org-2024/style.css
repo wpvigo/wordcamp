@@ -321,6 +321,19 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 					#tix_checkout_form table.tix-attendee-form tr td input[type="date"] {
 						width: 100%;
 					}
+					#tix_checkout_form table.tix-attendee-form tr td fieldset {
+						display: flex;
+						flex-wrap: wrap;
+						flex-direction: row;
+						padding: 10px;
+						gap: 15px;
+					}
+						#tix_checkout_form table.tix-attendee-form tr td fieldset label {
+							
+						}
+						#tix_checkout_form table.tix-attendee-form tr td fieldset br {
+							display: none;
+						}
 				#tix_checkout_form table.tix-attendee-form tr.tix-row-health-advisory {
 					padding: 20px;
 					border-radius: 3px;
@@ -334,6 +347,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 					#tix_checkout_form table.tix-attendee-form tr.tix-row-health-advisory td p:last-child {
 						margin: 0;
 					}
+
 		#tix #tix_checkout_form .tix-submit {
 			display: block;
 			float: none;
