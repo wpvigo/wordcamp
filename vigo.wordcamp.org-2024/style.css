@@ -280,46 +280,6 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 
 /*** ENTRADAS ***/
-#tix {
-
-}
-	#tix table {
-	
-	}
-		#tix table thead th {
-		
-		}
-		#tix table tbody tr {
-			display: flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-		}
-			#tix table tbody tr td {
-			
-			}
-			#tix table tbody tr th.tix-column-description {
-				width: calc( 100% - 100px );
-			}
-			#tix table tbody tr td.tix-column-price {
-				width: 100px;
-			}
-			#tix table tbody tr td.tix-column-remaining {
-				width: 50%;
-			}
-				#tix table tbody tr td.tix-column-remaining.before {
-					content: 'Quedan ';
-				}
-			#tix table tbody tr td.tix-column-quantity {
-				width: 50%;
-				text-align: right;
-			}
-			#tix table tbody tr td {
-			
-			}
-			#tix table tbody tr td {
-			
-			}
-
 
 
 /*** BLOCKS ***/
@@ -856,4 +816,49 @@ form .grunion-field-wrap {
 	#user-badges .is-member {
 		width: 100%;
 	}
+
+	#tix {
+
+}
+	#tix table {
+	
+	}
+		#tix table thead {
+			display: none;
+		}
+		#tix table tbody {
+			display: block;
+		}
+		#tix table tbody tr {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			gap: 0;
+		}
+			#tix table tbody tr td {
+			
+			}
+			#tix table tbody tr th.tix-column-description {
+				width: calc( 100% - 100px );
+			}
+			#tix table tbody tr td.tix-column-price {
+				margin-left: auto;
+				width: 100px;
+			}
+			#tix table tbody tr td.tix-column-remaining {
+				width: 50%;
+			}
+				#tix table tbody tr td.tix-column-remaining.before {
+					content: 'Quedan ';
+				}
+			#tix table tbody tr td.tix-column-quantity {
+				width: 50%;
+				text-align: right;
+			}
+			#tix table tbody tr td {
+			
+			}
+			#tix table tbody tr td {
+			
+			}
 }
