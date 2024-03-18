@@ -291,6 +291,10 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 			width: 100%;
 			text-align: left;
 		}
+			#tix table.tix-tickets-list thead th {
+				text-align: left;
+				font-weight: 600;
+			}
 
 		#tix_checkout_form table.tix-attendee-form {
 			max-width: 640px;
