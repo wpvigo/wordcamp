@@ -835,17 +835,21 @@ form .grunion-field-wrap {
 			flex-direction: row;
 			gap: 0;
 		}
+		#tix table tbody tr:not(:last-child) {
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			border-bottom: 1px dotted #999;
+		}
 			#tix table tbody tr td {
 			
 			}
 			#tix table tbody tr th.tix-column-description {
-				margin-left: 0;
-				margin-right: auto;
 				width: calc( 100% - 100px );
+				text-align: left;
 			}
 			#tix table tbody tr td.tix-column-price {
-				margin-left: auto;
 				width: 100px;
+				text-align: right;
 			}
 			#tix table tbody tr td.tix-column-remaining {
 				width: 50%;
