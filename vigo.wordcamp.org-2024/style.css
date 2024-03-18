@@ -657,14 +657,15 @@ form .grunion-field-wrap {
 		}
 
 	form input[type="submit"], form button[type="submit"] {
-		padding: calc(0.6rem - 1px) calc(1rem - 1px) calc(0.6rem - 1px) calc(1rem - 1px);
+		padding: 8px 12px!important;
 		line-height: inherit;
 		color: var(--wp--preset--color--base-2) !important;
 		font-family: inherit;
-		font-size: var(--wp--preset--font-size--small);
+		font-size: 15px;
 		font-style: normal;
-		font-weight: 500;
-		border-color: var(--wp--preset--color--custom-vigo)!important;
+		font-weight: 400;
+		border-radius: 3px;
+		border: 1px solid var(--wp--preset--color--custom-vigo)!important;
 		background-color: var(--wp--preset--color--custom-vigo) !important;
 	}
 
