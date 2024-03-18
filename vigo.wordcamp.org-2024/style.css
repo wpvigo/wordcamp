@@ -321,6 +321,20 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 					#tix_checkout_form table.tix-attendee-form tr td input[type="date"] {
 						width: 100%;
 					}
+		#tix #tix_checkout_form .tix-submit {
+			display: block;
+			float: none;
+			clear: both;
+			margin-top: 15px;
+			padding-top: 15px;
+			border-top: 1px dotted #999;
+		}
+			#tix #tix_checkout_form .tix-submit .tix-wide-tab {
+				width: 100%!important;
+				float: none!important;
+				font-weight: 400;
+				border-bottom-width: 0;
+			}
 
 /*** BLOCKS ***/
 
