@@ -309,6 +309,18 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 					display: block;
 					width: 100%;
 				}
+				#tix_checkout_form table.tix-attendee-form tr td.tix-left {
+					font-weight: 600;
+				}
+				#tix_checkout_form table.tix-attendee-form tr td.tix-right input {
+
+				}
+					#tix_checkout_form table.tix-attendee-form tr td input[type="text"],
+					#tix_checkout_form table.tix-attendee-form tr td input[type="email"], 
+					#tix_checkout_form table.tix-attendee-form tr td input[type="number"], 
+					#tix_checkout_form table.tix-attendee-form tr td input[type="date"] {
+						width: 100%;
+					}
 
 /*** BLOCKS ***/
 
