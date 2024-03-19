@@ -621,7 +621,7 @@ form .grunion-field-wrap {
 		form input[type="text"], form input[type="time"], 
 		form input[type="url"], form input[type="week"], 
 		form select, form textarea {
-			padding: 8px 12px;
+			padding: 8px 12px!important;
 			color: #222;
 			font-weight: 400;
 			font-size: 15px;   
@@ -652,7 +652,7 @@ form .grunion-field-wrap {
 		resize: vertical;
 	}
 	form select {
-        	padding: 8px 40px 8px 12px;
+        	padding: 8px 40px 8px 12px!important;
 		min-height: 41px;
 	        max-width: 100%;
 		width: 100%;
