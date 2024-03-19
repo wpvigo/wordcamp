@@ -400,14 +400,14 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	.wcv-info-columns .wp-block-column:hover {
 		transform: scale(1.05);
 	}
-	.wcv-info-columns a {
+	/*.wcv-info-columns a {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		text-indent: -999em;
-	}
+	}*/
 
 /** PROGRAMA HOME **/
 .wcv-programa-columns {
