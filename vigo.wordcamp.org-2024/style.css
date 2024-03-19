@@ -137,7 +137,7 @@ body.single #wp--skip-link--target {
 		max-width: 400px;
 	}
 		.organizadores-wrapper .wp-block-navigation__container li {
-			padding: 0;
+			padding: 2px 0;
 		}
 		.organizadores-wrapper .designedby {
 			margin-top: auto!important;
