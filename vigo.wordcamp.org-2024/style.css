@@ -135,6 +135,9 @@ body.single #wp--skip-link--target {
 		.organizadores-wrapper .wp-block-navigation__container li {
 			padding: 0;
 		}
+			.organizadores-wrapper .wp-block-navigation__container li .wp-block-wordcamp-avatar img {
+				border-radius: 5px;;
+			}
 		.organizadores-wrapper .designedby {
 			margin-top: auto!important;
 		}
