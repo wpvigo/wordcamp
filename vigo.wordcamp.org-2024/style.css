@@ -135,12 +135,10 @@ body.single #wp--skip-link--target {
 		.organizadores-wrapper .wp-block-navigation__container li {
 			padding: 0;
 		}
-			.organizadores-wrapper .wp-block-navigation__container li .wp-block-wordcamp-avatar img {
-				border-radius: 5px;;
-			}
 		.organizadores-wrapper .designedby {
 			margin-top: auto!important;
 		}
+
 body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation-item__content {
 	color: #fff!important;
 }
@@ -181,6 +179,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		padding-bottom: 30px;
 		border-bottom: 1px dotted #999;
 	}
+		.page-slug-organizadores .wcb_organizer .wp-block-wordcamp-avatar img {
+			border-radius: 5px;;
+		}
 		.page-slug-organizadores .wcb_organizer h2 {
 			font-size: 30px!important;
 			font-weight: 600!important;
