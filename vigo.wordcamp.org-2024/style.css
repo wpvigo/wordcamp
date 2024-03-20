@@ -129,7 +129,7 @@ body.single #wp--skip-link--target {
 				font-size: clamp(16px, 0.875rem + ((1vw - 3.2px) * 0.104), 16px)!important;
 			}
 			.wp-block-navigation__responsive-container-content  .has-child.wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item > .wp-block-navigation-item__content {
-				padding: 5px!important;
+				padding: 5px 0!important;
 			}
 
 
