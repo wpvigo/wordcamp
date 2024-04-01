@@ -876,7 +876,7 @@ form .contact-form__error li a {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 
 	#wpadminbar {
 		position: fixed;
