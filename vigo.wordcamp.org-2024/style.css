@@ -902,6 +902,10 @@ form .contact-form__error li a {
 		bottom: -999em;
 	}
 
+	.wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item.comprar-entrada {
+		margin-left: 0!important;
+	}
+
 	.wp-container-core-navigation-is-layout-1.wp-container-core-navigation-is-layout-1 {
 		margin-left: auto;
 	}
