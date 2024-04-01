@@ -800,6 +800,10 @@ form .contact-form__error li a {
 
 @media screen and (max-width: 810px) {
 
+	.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open {
+		margin-left: auto;
+	}
+
 	.wcv-header-title {
 		padding-left: var(--wp--style--root--padding-left);
 		padding-right: var(--wp--style--root--padding-right);
