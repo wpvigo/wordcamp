@@ -124,6 +124,9 @@ body:not(.home) .wp-block-navigation .wp-block-navigation-item:hover > .wp-block
 	margin: 0 0 10px 0!important;
 	padding: 0!important;
 }
+.wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item.comprar-entrada {
+	margin-left: auto!important;
+}
 .wp-block-navigation__responsive-container .wp-block-navigation__submenu-container {
 	margin: 0!important;
 	padding: 0!important;
@@ -136,6 +139,12 @@ body:not(.home) .wp-block-navigation .wp-block-navigation-item:hover > .wp-block
 .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item a {
 	padding: 5px;
 	font-size: clamp(16px, 0.875rem + ((1vw - 3.2px) * 0.104), 16px)!important;
+}
+.wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item.comprar-entrada a {
+	display: block;
+	padding: 8px 12px!important;
+	border-radius: 3px;
+	background-color: var(--wp--preset--color--custom-vigo) !important;
 }
 .wp-block-navigation__responsive-container-content  .has-child.wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item > .wp-block-navigation-item__content {
 	padding: 5px!important;
