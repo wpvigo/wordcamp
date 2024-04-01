@@ -32,6 +32,10 @@ body.admin-bar #wphead {
 #wpadminbar .quicklinks .menupop ul {
 	bottom: 0;
 }
+@media screen and (max-width: 600px){
+  #wpadminbar { position: fixed; }
+}
+
 
 
 /***** COMMON *****/
@@ -303,7 +307,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 }
 #tix > form {
-	max-width: 800px;
+	max-width: 900px;
 }
 #tix table.tix-tickets-list,
 #tix table.tix-order-summary {
@@ -896,7 +900,7 @@ form .contact-form__error li a {
 		fill: #fff!important;
 	}
 	.wp-block-navigation__responsive-container {
-		background-image: 	url('https://vigo.wordcamp.org/2024/files/2024/02/wcvigo-2024.png'), 
+		background-image: url('https://vigo.wordcamp.org/2024/files/2024/02/wcvigo-2024.png'), 
 			url('https://vigo.wordcamp.org/2024/files/2024/03/2024-block.png')!important;
 		background-position: left 30px top 20px, 100% 100%!important;
 		background-repeat: no-repeat, no-repeat!important;
