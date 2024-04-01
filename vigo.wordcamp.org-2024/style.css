@@ -147,6 +147,7 @@ body:not(.home) .wp-block-navigation .wp-block-navigation-item:hover > .wp-block
 	border-radius: 3px;
 	background-color: var(--wp--preset--color--custom-vigo) !important;
 }
+
 .wp-block-navigation__responsive-container-content  .has-child.wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item > .wp-block-navigation-item__content {
 	padding: 5px!important;
 }
@@ -1226,3 +1227,15 @@ footer .wp-block-navigation .wp-block-navigation-item:hover > .wp-block-navigati
 }
 
 /* factura */
+
+
+
+@media screen and (min-width: 950px) and (max-width: 599px) {
+
+	.wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item.comprar-entrada a {
+		
+	}
+		.wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item.comprar-entrada a span {
+			display: none;
+		}
+}
