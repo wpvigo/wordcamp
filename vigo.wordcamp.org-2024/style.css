@@ -64,6 +64,10 @@ body.single #wp--skip-link--target {
 
 /*** NAV ***/
 
+.wcv-logo.wp-block-site-logo + .wp-block-navigation.is-horizontal {
+	flex: 1;
+}
+
 .wp-site-blocks > header.wp-block-template-part > .wp-block-group {
 	position: absolute;
 	left: 0;
