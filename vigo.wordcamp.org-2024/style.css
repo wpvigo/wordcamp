@@ -1,5 +1,7 @@
 :root {
 	--wp--preset--spacing--35: min(3rem, 4vw);
+	--wp--style--root--padding-right: var(--wp--preset--spacing--35)!important;
+  	--wp--style--root--padding-left: var(--wp--preset--spacing--35)!important;
 }
 
 html, body {
@@ -11,8 +13,8 @@ body {
 	color: #222;
 	font-family: 'Montserrat';
 	background-color: #fff;
-	--wp--style--root--padding-right: var(--wp--preset--spacing--35)!important;
-  	--wp--style--root--padding-left: var(--wp--preset--spacing--35)!important;
+	/*--wp--style--root--padding-right: var(--wp--preset--spacing--35)!important;
+  	--wp--style--root--padding-left: var(--wp--preset--spacing--35)!important;*/
 }
 
 
