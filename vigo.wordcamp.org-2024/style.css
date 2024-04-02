@@ -10,6 +10,7 @@ body {
 }
 
 body .entry-content.has-global-padding {
+	--wp--style--root--padding-right: min(3rem, 4vw);
 	padding-right: var(--wp--style--root--padding-right);
   	padding-left: var(--wp--style--root--padding-right);
 }
