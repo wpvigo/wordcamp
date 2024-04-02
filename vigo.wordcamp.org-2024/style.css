@@ -9,7 +9,7 @@ body {
 	background-color: #fff;
 }
 
-body .has-global-padding {
+body header.wp-block-template-part .has-global-padding {
 	padding-right: min(3rem, 4vw);
   	padding-left: min(3rem, 4vw);
 }
