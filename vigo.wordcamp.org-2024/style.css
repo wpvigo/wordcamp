@@ -578,7 +578,7 @@ text-indent: -999em;
 		flex-direction: row;
 		align-items: flex-end;
 		margin: 0;
-		width: calc(25% - 30px);
+		width: calc(33.3333% - 30px);
 		gap: 20px;
 	}
 		#tix-attendees ul.tix-attendee-list li img {
