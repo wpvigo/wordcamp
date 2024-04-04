@@ -590,6 +590,7 @@ text-indent: -999em;
 		}
 		#tix-attendees ul.tix-attendee-list li .tix-attendee-name {
 			flex: 1;
+			margin: 0;
 			font-weight: 700;
 		}
 			#tix-attendees ul.tix-attendee-list li .tix-attendee-name .tix-last {
