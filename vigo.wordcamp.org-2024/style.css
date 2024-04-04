@@ -566,6 +566,34 @@ text-indent: -999em;
 }
 
 
+/* ASISTENTES */
+#tix-attendees ul.tix-attendee-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 60px 30px;
+}
+	#tix-attendees ul.tix-attendee-list li {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		margin: 0;
+		width: calc(25% - 30px);
+		gap: 20px;
+	}
+		#tix-attendees ul.tix-attendee-list li img {
+			width: 80px;
+			height: 80px;
+			object-fit: cover;
+			object-position: center center;
+			border-radius: 5px;
+		}
+		#tix-attendees ul.tix-attendee-list li .tix-attendee-name {
+			font-weight: 700;
+		}
+			#tix-attendees ul.tix-attendee-list li .tix-attendee-name .tix-last {
+				display: block;
+			}
 
 /**** FORMULARIOS ****/
 
