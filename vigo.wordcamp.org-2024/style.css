@@ -580,7 +580,7 @@ text-indent: -999em;
 		flex-direction: row;
 		align-items: flex-end;
 		margin: 0;
-		width: calc(33.3333% - 30px);
+		width: calc(33.3333% - 20px);
 		gap: 20px;
 	}
 		#tix-attendees ul.tix-attendee-list li img {
@@ -934,12 +934,7 @@ form .contact-form__error li a {
 	}
 
 	#tix-attendees ul.tix-attendee-list li {
-		display: flex;
-		flex-direction: row;
-		align-items: flex-end;
-		margin: 0;
-		width: calc(50% - 30px);
-		gap: 20px;
+		width: calc(50% - 15px);
 	}
 }
 
@@ -1075,6 +1070,10 @@ form .contact-form__error li a {
 	#tix table tbody tr td.tix-column-quantity {
 		width: 35%;
 		text-align: right;
+	}
+
+	#tix-attendees ul.tix-attendee-list li {
+		width: 100%;
 	}
 }
 
