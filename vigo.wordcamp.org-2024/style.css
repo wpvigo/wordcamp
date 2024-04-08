@@ -930,6 +930,15 @@ form .contact-form__error li a {
 		width: 100%!important;
 		flex-basis: 100%!important;
 	}
+
+	#tix-attendees ul.tix-attendee-list li {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		margin: 0;
+		width: calc(50% - 30px);
+		gap: 20px;
+	}
 }
 
 @media screen and (max-width: 599px ) { /* ampliar a 1040px porque el menu no cabe */
