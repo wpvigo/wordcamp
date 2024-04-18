@@ -420,6 +420,17 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	border-bottom-width: 0;
 }
 
+.jetpack-subscribe-modal.open {
+	position: absolute!important;
+	display: none!important;
+	opacity: 0!important;
+	visibility: hidden!important;
+	left: -9999em!important;
+	top: -9999em!important;
+	width: 0!important;
+	height: 0!important;
+}
+
 /*** BLOCKS ***/
 
 /** WELCOME HOME **/
