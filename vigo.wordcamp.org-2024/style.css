@@ -158,6 +158,15 @@ body:not(.home) .wp-block-navigation .wp-block-navigation-item:hover > .wp-block
 	padding: 5px!important;
 }
 
+ul li a.wp-block-navigation-item__content,
+ul li a.wp-block-navigation-item__content:focus,
+ul li a.wp-block-navigation-item__content:focus-within {
+	border-width: 0!important;
+	outline-width: 0!important;
+	box-shadow: none;
+}
+	
+
 
 /***** FOOTER *****/
 
@@ -1034,7 +1043,7 @@ form .contact-form__error li a {
 	.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field:focus, 
 	.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field:focus-within, 
 	.wp-block-jetpack-subscriptions__form-elements #subscribe-email #subscribe-field:focus-visible {
-		outline: 0 solid transparent!important;
+		outline-width: 0!important;
 	}
 	.wp-block-jetpack-subscriptions__form-elements #subscribe-submit button {
 		margin: 0!important;
