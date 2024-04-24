@@ -216,37 +216,47 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 
 /*** ORGANIZADORES ***/
 
-.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(1) {
+.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(1),
+.page-slug-ponentes .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(1){
 	width: 150px!important;
 	flex-basis: 150px!important;
 }
-.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(2) {
+.page-slug-organizadores .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(2),
+.page-slug-ponentes .wcb_organizer > .wp-block-columns > .wp-block-column:nth-child(2){
 	flex: 1!important;
 }
-.page-slug-organizadores ul .wcb_organizer:not(:last-child) {
+.page-slug-organizadores ul .wcb_organizer:not(:last-child),
+.page-slug-ponentes ul .wcb_organizer:not(:last-child){
 	margin-bottom: 30px;
 	padding-bottom: 30px;
 	border-bottom: 1px dotted #999;
 }
-.page-slug-organizadores .wcb_organizer .wp-block-wordcamp-avatar img {
+.page-slug-organizadores .wcb_organizer .wp-block-wordcamp-avatar img,
+.page-slug-ponentes .wcb_organizer .wp-block-wordcamp-avatar img{
 	border-radius: 5px;;
 }
-.page-slug-organizadores .wcb_organizer h2 {
+.page-slug-organizadores .wcb_organizer h2, 
+.page-slug-ponentes .wcb_organizer h2{
 	font-size: 30px!important;
 	font-weight: 600!important;
 }
-.page-slug-organizadores .wcb_organizer h3 {
+.page-slug-organizadores .wcb_organizer h3,
+.page-slug-ponentes .wcb_organizer h3{
 	font-size: 24px!important;
 	font-weight: 600!important;
 }
-.page-slug-organizadores .wcb_organizer p {
+.page-slug-organizadores .wcb_organizer p,
+.page-slug-ponentes .wcb_organizer p{
 	margin: 0 0 1.3rem 0!important;
 }
-.page-slug-organizadores .wcb_organizer .profile p {
+.page-slug-organizadores .wcb_organizer .profile p,
+.page-slug-ponentes .wcb_organizer .profile p{
 	margin: 0!important;
 }
 .page-slug-organizadores .wcb_organizer > .wp-block-spacer, 
-.page-slug-organizadores .wcb_organizer > .wp-block-separator {
+.page-slug-organizadores .wcb_organizer > .wp-block-separator, 
+.page-slug-ponentes .wcb_organizer > .wp-block-spacer, 
+.page-slug-ponentes .wcb_organizer > .wp-block-separator{
 	display: none;
 }
 
