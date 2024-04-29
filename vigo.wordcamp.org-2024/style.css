@@ -162,9 +162,9 @@ body:not(.home) .wp-block-navigation .wp-block-navigation-item:hover > .wp-block
 	padding: 5px!important;
 }
 
-ul li a.wp-block-navigation-item__content,
-ul li a.wp-block-navigation-item__content:focus,
-ul li a.wp-block-navigation-item__content:focus-within {
+a,
+a:focus,
+a:focus-within {
 	border-width: 0!important;
 	outline-width: 0!important;
 	box-shadow: none;
