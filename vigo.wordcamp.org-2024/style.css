@@ -377,9 +377,12 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	align-items: flex-start;
 	justify-content: flex-start;
 }
-.wordcamp-schedule__session-speakers dd a {
-	font-weight: 600;
+.wordcamp-schedule__session-speakers {
+	text-align: left;
 }
+	.wordcamp-schedule__session-speakers dd a {
+		font-weight: 600;
+	}
 
 
 
