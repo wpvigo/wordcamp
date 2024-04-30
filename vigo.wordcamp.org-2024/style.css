@@ -384,7 +384,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 		font-weight: 600;
 	}
 
-
+.is-spanning-all-tracks {
+  background-color: rgba(233, 61, 83, 0.18) !important;
+}
 
 
 /*** ENTRADAS ***/
