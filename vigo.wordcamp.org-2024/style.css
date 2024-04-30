@@ -366,6 +366,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	.wordcamp-schedule__day .wordcamp-schedule__session-title > a {
 		color: var(--wp--preset--color--custom-vigo) !important;
 	}
+.wordcamp-schedule__day .wordcamp-schedule__session-title + p {
+	margin: 5px 0!important;
+}
 .wordcamp-schedule__day > h3,
 .wordcamp-schedule__day > div, 
 .wordcamp-schedule__day > span,
@@ -373,6 +376,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	text-align: left;
 	align-items: flex-start;
 	justify-content: flex-start;
+}
+.wordcamp-schedule__session-speakers dd a {
+	font-weight: 600;
 }
 
 
