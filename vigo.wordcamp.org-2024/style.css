@@ -354,6 +354,22 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 }
 
 
+/*** PROGRAMA ***/
+.wordcamp-schedule__day {
+
+}
+.wordcamp-schedule__day > h3,
+.wordcamp-schedule__day > div, 
+.wordcamp-schedule__day > span,
+.wordcamp-schedule__day p {
+	text-align: left;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+
+
+
 /*** ENTRADAS ***/
 
 #tix {
