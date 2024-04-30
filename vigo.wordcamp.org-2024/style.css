@@ -363,6 +363,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	color: var(--wp--preset--color--custom-vigo) !important;
 	font-weight: 700;
 }
+	.wordcamp-schedule__day .wordcamp-schedule__session-title > a {
+		color: var(--wp--preset--color--custom-vigo) !important;
+	}
 .wordcamp-schedule__day > h3,
 .wordcamp-schedule__day > div, 
 .wordcamp-schedule__day > span,
