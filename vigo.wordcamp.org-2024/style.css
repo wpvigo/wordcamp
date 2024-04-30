@@ -358,6 +358,11 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 .wordcamp-schedule__day {
 
 }
+.wordcamp-schedule__day .wordcamp-schedule__session-title {
+	line-height: 1;
+	color: var(--wp--preset--color--custom-vigo) !important;
+	font-weight: 700;
+}
 .wordcamp-schedule__day > h3,
 .wordcamp-schedule__day > div, 
 .wordcamp-schedule__day > span,
