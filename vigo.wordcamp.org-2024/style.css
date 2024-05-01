@@ -385,7 +385,13 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	}
 
 .is-spanning-all-tracks {
+	background-color: rgba(233, 61, 83, 0.05) !important;
+}
+.has-track-sala-mar {
 	background-color: rgba(233, 61, 83, 0.10) !important;
+}
+.has-track-sala-terra {
+	background-color: rgba(233, 61, 83, 0.15) !important;
 }
 
 .tax-wcb_track .wcb_session_category-break-and-lunch,
