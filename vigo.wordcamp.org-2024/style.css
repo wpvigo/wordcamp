@@ -391,13 +391,13 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	background-color: rgba(233, 61, 83, 0.15) !important;
 }
 .has-track-taller-1 {
-	background-color: rgba(0, 0, 0, 0.10) !important;
+	background-color: rgba(106, 192, 176, 0.10) !important;
 }
 .has-track-taller-2 {
-	background-color: rgba(0, 0, 0, 0.15) !important;
+	background-color: rgba(106, 192, 176, 0.15) !important;
 }
 .has-track-taller-3 {
-	background-color: rgba(0, 0, 0, 0.20) !important;
+	background-color: rgba(106, 192, 176, 0.20) !important;
 }
 
 .has-track-sala-mar.has-track-sala-terra {
@@ -408,6 +408,11 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 .tax-wcb_track .wp-block-post.wcb_track-taller-1.wcb_track-taller-2 {
 	display: none;
 	visibility: hidden;
+}
+
+*[content*=" CES"]:after {
+    content: "";
+    color: transparent;
 }
 
 
