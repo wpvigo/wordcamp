@@ -388,7 +388,8 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	background-color: rgba(233, 61, 83, 0.10) !important;
 }
 
-.tax-wcb_track .wcb_session_category-break-and-lunch {
+.tax-wcb_track .wcb_session_category-break-and-lunch,
+.tax-wcb_track .wp-block-post.taller-1.wcb_track-taller-2 {
 	display: none;
 	visibility: hidden;
 }
