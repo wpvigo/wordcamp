@@ -405,11 +405,13 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 }
 
 .tax-wcb_track .wcb_session_category-break-and-lunch,
-.tax-wcb_track .wp-block-post.wcb_track-taller-1.wcb_track-taller-2,
-dl.wordcamp-schedule__session-category, 
-dl.wordcamp-schedule__session-tracks {
+.tax-wcb_track .wp-block-post.wcb_track-taller-1.wcb_track-taller-2 {
 	display: none;
 	visibility: hidden;
+}
+dl.wordcamp-schedule__session-category, 
+dl.wordcamp-schedule__session-tracks {
+	text-align: left;
 }
 
 
