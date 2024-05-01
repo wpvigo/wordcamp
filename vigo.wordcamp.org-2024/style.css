@@ -410,7 +410,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	visibility: hidden;
 }
 
-*[content*=" CES"]:after {
+*[content*=" CEST"]:after {
     content: "";
     color: transparent;
 }
