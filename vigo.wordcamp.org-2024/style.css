@@ -404,7 +404,7 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 }
 
 .has-track-sala-mar.has-track-sala-terra {
-	background-color: rgba(0, 0, 0, 10) !important;
+	background-color: rgba(0, 0, 0, 0.10) !important;
 }
 
 .tax-wcb_track .wcb_session_category-break-and-lunch,
