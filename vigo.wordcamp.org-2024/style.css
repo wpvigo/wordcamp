@@ -385,19 +385,19 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	}
 
 .has-track-sala-mar {
-	background-color: rgba(233, 61, 83, 0.05) !important;
+	background-color: rgba(233, 61, 83, 0.10) !important;
 }
 .has-track-sala-terra {
-	background-color: rgba(233, 61, 83, 0.15) !important;
+	background-color: rgba(233, 61, 83, 0.25) !important;
 }
 .has-track-taller-1 {
 	background-color: rgba(106, 192, 176, 0.10) !important;
 }
 .has-track-taller-2 {
-	background-color: rgba(106, 192, 176, 0.15) !important;
+	background-color: rgba(106, 192, 176, 0.25) !important;
 }
 .has-track-taller-3 {
-	background-color: rgba(106, 192, 176, 0.20) !important;
+	background-color: rgba(106, 192, 176, 0.35) !important;
 }
 
 .has-track-sala-mar.has-track-sala-terra {
