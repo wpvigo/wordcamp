@@ -407,7 +407,8 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 	background-color: rgba(106, 192, 176, 0.35) !important;
 }
 
-.has-track-sala-mar.has-track-sala-terra {
+.has-track-sala-mar.has-track-sala-terra,
+.has-track-mesas-de-trabajo..has-track-sala-mar {
 	background-color: rgba(0, 0, 0, 0.10) !important;
 }
 
