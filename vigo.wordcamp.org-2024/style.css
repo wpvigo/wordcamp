@@ -411,6 +411,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 .has-track-mesas-de-trabajo.has-track-sala-mar {
 	background-color: rgba(0, 0, 0, 0.10) !important;
 }
+.wordcamp-schedule__time-slot-header {
+	background-color: rgba(0, 0, 0, 0.05) !important;
+}
 
 .tax-wcb_track .wcb_session_category-break-and-lunch,
 .tax-wcb_track .wp-block-post.wcb_track-taller-1.wcb_track-taller-2 {
