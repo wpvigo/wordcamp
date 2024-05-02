@@ -387,11 +387,11 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 .wordcamp-schedule__day {
 	background-color: #fff;
 	background: repeating-linear-gradient(
-		45deg,
-		rgba(0, 0, 0, 0) 20px,
-		rgba(0, 0, 0, 0) 40px,
-		#ccc 1px,
-		#ccc 2px
+		-45deg,
+		#fff,
+		#fff 2px,
+		#ccc 2px,
+		#ccc 1px
     	);
 }
 .has-track-sala-mar {
