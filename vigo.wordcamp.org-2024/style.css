@@ -414,6 +414,15 @@ dl.wordcamp-schedule__session-tracks {
 	text-align: left;
 }
 
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .editor-styles-wrapper h3.wordcamp-schedule__time-slot-header, 
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session, 
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header,
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__day,
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__day .wordcamp-schedule__column-header {
+	box-shadow: 0 0 0 1px #999!important;
+}
+
+
 
 /*** ENTRADAS ***/
 
