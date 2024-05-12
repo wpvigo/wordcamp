@@ -411,6 +411,9 @@ body .wp-site-blocks .footer-nav .wp-block-navigation-item a.wp-block-navigation
 .has-track-mesas-de-trabajo.has-track-sala-mar {
 	background-color: rgba(0, 0, 0, 0.10) !important;
 }
+.has-category-after-party {
+    background-color: rgba(233, 61, 83, 0.10) !important;
+}
 .wordcamp-schedule__time-slot-header {
 	background-color: rgba(0, 0, 0, 0.05) !important;
 }
