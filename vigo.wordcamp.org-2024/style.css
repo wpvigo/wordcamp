@@ -437,7 +437,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 }
 
 .wordcamp-schedule__session.wcb-favourite-session {
-	border: 3px solid rgba(0, 0, 0, 0.40);
+	border: 4px solid rgba(0, 0, 0, 0.40)!important;
 }
 
 /*** ENTRADAS ***/
