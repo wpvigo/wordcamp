@@ -436,7 +436,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 	box-shadow: 0 0 0 1px #999!important;
 }
 
-.wordcamp-schedule .wcb-favourite-session {
+.wordcamp-schedule.wcb-favourite-session {
 	border: 3px solid rgba(0, 0, 0, 0.40);
 }
 
